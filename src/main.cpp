@@ -6,6 +6,7 @@ void podciag(int ciag_a[], int N) {
         std::cout << "Ciag jest za krotki.\n";
     }
     const int M = 5;
+    bool znaleziono = false;
     // int wynik[M]; 
     for(int i = 0; i < N - 4; i++) {
         int Temp[M];
@@ -13,15 +14,19 @@ void podciag(int ciag_a[], int N) {
             Temp[j] = ciag_a[i + j];
         }
         if(Temp[1] + Temp[3] > Temp[0] + Temp[2]+ Temp[4]) {
+            znaleziono = true;
             for(int j = 0; j < M; j++) {
                 std::cout << Temp[j] << " ";
             }
         }
-        std::cout << "\n";
+        if (znaleziono) {
+            std::cout << "\n";
+            znaleziono = false;
+        }
     }
 }
 int main () {
-    const int N = 11;
+    const int N = 20;
     // int ciag_wejsciowy[N] = {1, 130, 1, 9, 11, 6, 1, 1, 1, 3, 1};
     int ciag_wejsciowy[N] = {};
     std::srand(std::time(NULL));
