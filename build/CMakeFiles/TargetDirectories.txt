@@ -1,0 +1,3 @@
+/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/P02_Mateusz_Dzialowski.dir
+/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/edit_cache.dir
+/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/rebuild_cache.dir

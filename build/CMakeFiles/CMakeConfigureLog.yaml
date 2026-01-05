@@ -1,0 +1,2671 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/uname"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/uname"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/uname"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/uname"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 25.2.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/gmake"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/gmake"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/gmake"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/gmake"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/opt/pmk/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Library/TeX/texbin/gmake"
+      - "/Applications/VMware Fusion.app/Contents/Public/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/gmake"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/gmake"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/make"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/make"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/make"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/make"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang 
+      Build flags: -ftree-vectorize;-fPIC;-fstack-protector-strong;-O2;-pipe;-isystem;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang" "-ftree-vectorize" "-fPIC" "-fstack-protector-strong" "-O2" "-pipe" "-isystem" "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 457 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-ar"
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "llvm-ranlib"
+      - "arm64-apple-darwin20.0.0-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-strip"
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-nm"
+      - "llvm-nm"
+      - "arm64-apple-darwin20.0.0-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-nm"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-nm"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-objdump"
+      - "llvm-objdump"
+      - "arm64-apple-darwin20.0.0-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-objdump"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-objdump"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "llvm-objcopy"
+      - "arm64-apple-darwin20.0.0-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-objcopy"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-objcopy"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-readelf"
+      - "llvm-readelf"
+      - "arm64-apple-darwin20.0.0-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-readelf"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-readelf"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "llvm-dlltool"
+      - "arm64-apple-darwin20.0.0-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-dlltool"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-dlltool"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-dlltool"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "llvm-addr2line"
+      - "arm64-apple-darwin20.0.0-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-addr2line"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-addr2line"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-tapi"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/usr/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-tapi"
+      - "/sbin/arm64-apple-darwin20.0.0-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-tapi"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-tapi"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-tapi"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-tapi"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/tapi"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/tapi"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "arm64-apple-darwin20.0.0-llvm-ar19"
+      - "arm64-apple-darwin20.0.0-llvm-ar"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "arm64-apple-darwin20.0.0-llvm-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "arm64-apple-darwin20.0.0-clang-scan-deps"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++ 
+      Build flags: -ftree-vectorize;-fPIC;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++" "-ftree-vectorize" "-fPIC" "-fstack-protector-strong" "-O2" "-pipe" "-stdlib=libc++" "-fvisibility-inlines-hidden" "-fmessage-length=0" "-isystem" "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 524 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "arm64-apple-darwin20.0.0-llvm-ar19"
+      - "arm64-apple-darwin20.0.0-llvm-ar"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ar"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ar"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "arm64-apple-darwin20.0.0-llvm-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/sbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-llvm-ranlib"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-llvm-ranlib"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "arm64-apple-darwin20.0.0-clang-scan-deps"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps-19.1"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps-19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps19"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/System/Cryptexes/App/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/usr/sbin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/sbin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/opt/pmk/env/global/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Library/Apple/usr/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Library/TeX/texbin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/opt/homebrew/bin/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/arm64-apple-darwin20.0.0-clang-scan-deps"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/arm64-apple-darwin20.0.0-clang-scan-deps"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/sbin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/"
+      - "/opt/homebrew/Caskroom/miniconda/base/condabin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts/"
+    found: "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/install_name_tool"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy"
+      ENV{PATH}:
+        - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin"
+        - "/opt/homebrew/Caskroom/miniconda/base/condabin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/opt/homebrew/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/sansrozpierducha/Library/Application Support/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9"
+      binary: "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9'
+        
+        Run Build Command(s): /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb3aa/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bb3aa.dir/build.make CMakeFiles/cmTC_bb3aa.dir/build
+        Building C object CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang   -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        clang version 19.1.7
+        Target: arm64-apple-darwin20.0.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin
+        arm64-apple-darwin20.0: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang-19" -cc1 -triple arm64-apple-macosx16.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=26.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9 -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9 -resource-dir /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19 -dependency-file CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target arm64-apple-darwin25.2.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include
+         /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_bb3aa
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3aa.dir/link.txt --verbose=1
+        clang version 19.1.7
+        Target: arm64-apple-darwin20.0.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin
+         "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/libLTO.19.1.dylib -dynamic -arch arm64 -platform_version macos 16.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_bb3aa -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-955.13
+        BUILD 18:30:41 Nov  2 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em riscv32 (tvOS)
+        Library search paths:
+        	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v -Wl,-v CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -o cmTC_bb3aa
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include]
+          add: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include]
+        collapse include dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb3aa/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bb3aa.dir/build.make CMakeFiles/cmTC_bb3aa.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang   -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 19.1.7]
+        ignore line: [Target: arm64-apple-darwin20.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin]
+        ignore line: [arm64-apple-darwin20.0: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang-19" -cc1 -triple arm64-apple-macosx16.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=26.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9 -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-oyp2R9 -resource-dir /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19 -dependency-file CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target arm64-apple-darwin25.2.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include]
+        ignore line: [ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_bb3aa]
+        ignore line: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3aa.dir/link.txt --verbose=1]
+        ignore line: [clang version 19.1.7]
+        ignore line: [Target: arm64-apple-darwin20.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin]
+        link line: [ "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/libLTO.19.1.dylib -dynamic -arch arm64 -platform_version macos 16.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_bb3aa -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/libLTO.19.1.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [16.0.0] ==> ignore
+          arg [26.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bb3aa] ==> ignore
+          arg [-L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+        ignore line: [@(#)PROGRAM:ld  PROJECT:ld64-955.13]
+        ignore line: [BUILD 18:30:41 Nov  2 2025]
+        ignore line: [configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em riscv32 (tvOS)]
+        ignore line: [Library search paths:]
+        ignore line: [	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        ignore line: [Framework search paths:]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        ignore line: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v -Wl -v CMakeFiles/cmTC_bb3aa.dir/CMakeCCompilerABI.c.o -o cmTC_bb3aa]
+        ignore line: []
+        ignore line: []
+        Library search paths: [;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+        collapse library dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ"
+      binary: "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ'
+        
+        Run Build Command(s): /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_715cd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_715cd.dir/build.make CMakeFiles/cmTC_715cd.dir/build
+        Building CXX object CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++   -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        clang version 19.1.7
+        Target: arm64-apple-darwin20.0.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin
+        arm64-apple-darwin20.0: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang-19" -cc1 -triple arm64-apple-macosx16.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=26.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ -resource-dir /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19 -dependency-file CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target arm64-apple-darwin25.2.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include
+         /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1
+         /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_715cd
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E cmake_link_script CMakeFiles/cmTC_715cd.dir/link.txt --verbose=1
+        clang version 19.1.7
+        Target: arm64-apple-darwin20.0.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin
+         "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/libLTO.19.1.dylib -dynamic -arch arm64 -platform_version macos 16.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_715cd -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-955.13
+        BUILD 18:30:41 Nov  2 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em riscv32 (tvOS)
+        Library search paths:
+        	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++ -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v -Wl,-v CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_715cd
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include]
+          add: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1]
+          add: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include]
+        collapse include dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1]
+        collapse include dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_715cd/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_715cd.dir/build.make CMakeFiles/cmTC_715cd.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++   -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 19.1.7]
+        ignore line: [Target: arm64-apple-darwin20.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin]
+        ignore line: [arm64-apple-darwin20.0: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang-19" -cc1 -triple arm64-apple-macosx16.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=26.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-Tfm8cJ -resource-dir /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19 -dependency-file CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target arm64-apple-darwin25.2.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include]
+        ignore line: [ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1]
+        ignore line: [ /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_715cd]
+        ignore line: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E cmake_link_script CMakeFiles/cmTC_715cd.dir/link.txt --verbose=1]
+        ignore line: [clang version 19.1.7]
+        ignore line: [Target: arm64-apple-darwin20.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin]
+        link line: [ "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/libLTO.19.1.dylib -dynamic -arch arm64 -platform_version macos 16.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_715cd -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/libLTO.19.1.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [16.0.0] ==> ignore
+          arg [26.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_715cd] ==> ignore
+          arg [-L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+        ignore line: [@(#)PROGRAM:ld  PROJECT:ld64-955.13]
+        ignore line: [BUILD 18:30:41 Nov  2 2025]
+        ignore line: [configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em riscv32 (tvOS)]
+        ignore line: [Library search paths:]
+        ignore line: [	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        ignore line: [Framework search paths:]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        ignore line: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++ -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -v -Wl -v CMakeFiles/cmTC_715cd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_715cd]
+        ignore line: []
+        ignore line: []
+        Library search paths: [;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+        collapse library dir [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib] ==> [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-daI76c"
+      binary: "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-daI76c"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-daI76c'
+        
+        Run Build Command(s): /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7cb6a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7cb6a.dir/build.make CMakeFiles/cmTC_7cb6a.dir/build
+        Building C object CMakeFiles/cmTC_7cb6a.dir/src.c.o
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang -DCMAKE_HAVE_LIBC_PTHREAD  -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_7cb6a.dir/src.c.o -MF CMakeFiles/cmTC_7cb6a.dir/src.c.o.d -o CMakeFiles/cmTC_7cb6a.dir/src.c.o -c /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles/CMakeScratch/TryCompile-daI76c/src.c
+        Linking C executable cmTC_7cb6a
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cb6a.dir/link.txt --verbose=1
+        /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib -L/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib  CMakeFiles/cmTC_7cb6a.dir/src.c.o -o cmTC_7cb6a
+        
+      exitCode: 0
+...
