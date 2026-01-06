@@ -4,12 +4,13 @@
 void podciag(int ciag_a[], int N) {
     if (N < 5) {
         std::cout << "Ciag jest za krotki.\n";
+        // return 0;
     }
     const int M = 5;
     bool znaleziono = false;
+    int Temp[M];
     // int wynik[M]; 
     for(int i = 0; i < N - 4; i++) {
-        int Temp[M];
         for(int j = 0; j < M; j++) {
             Temp[j] = ciag_a[i + j];
         }
@@ -30,7 +31,7 @@ int main () {
     // int ciag_wejsciowy[N] = {1, 130, 1, 9, 11, 6, 1, 1, 1, 3, 1};
     int ciag_wejsciowy[N] = {};
     std::srand(std::time(NULL));
-    for (int i = 0; i < N-1; i++) {
+    for (int i = 0; i < N; i++) {
         ciag_wejsciowy[i] = rand() % 150 + 1; // Losowe liczby od 1 do 150
     }
     std::cout << "Ciag wejsciowy: ";
