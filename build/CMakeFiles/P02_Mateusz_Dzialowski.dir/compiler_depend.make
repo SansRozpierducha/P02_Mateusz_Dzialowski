@@ -723,6 +723,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/format \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/functional \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/initializer_list \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iomanip \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ios \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iosfwd \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iostream \
@@ -829,6 +830,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iterator:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iosfwd:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iomanip:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/functional:
 

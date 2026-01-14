@@ -777,4 +777,5 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/stack \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__fwd/stack.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/iomanip
