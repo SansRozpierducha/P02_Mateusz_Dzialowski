@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++")
+set(CMAKE_CXX_COMPILER "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_CXX_COMPILER_VERSION "19.1.7")
@@ -25,17 +25,17 @@ set(CMAKE_CXX_COMPILER_ARCHITECTURE_ID "arm64")
 
 
 
-set(CMAKE_AR "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ar")
-set(CMAKE_CXX_COMPILER_AR "CMAKE_CXX_COMPILER_AR-NOTFOUND")
+set(CMAKE_AR "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/ar")
+set(CMAKE_CXX_COMPILER_AR "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-ar-19")
 set(CMAKE_RANLIB "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "CMAKE_CXX_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-ld")
+set(CMAKE_CXX_COMPILER_RANLIB "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/llvm-ranlib-19")
+set(CMAKE_LINKER "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_CXX_COMPILER_LINKER "NOTFOUND")
-set(CMAKE_CXX_COMPILER_LINKER_ID "")
-set(CMAKE_CXX_COMPILER_LINKER_VERSION )
-set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT )
+set(CMAKE_CXX_COMPILER_LINKER "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/ld")
+set(CMAKE_CXX_COMPILER_LINKER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_LINKER_VERSION 955.13)
+set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT GNU)
 set(CMAKE_MT "")
 set(CMAKE_TAPI "/Library/Developer/CommandLineTools/usr/bin/tapi")
 set(CMAKE_COMPILER_IS_GNUCXX )
@@ -90,9 +90,9 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1;/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19")
 

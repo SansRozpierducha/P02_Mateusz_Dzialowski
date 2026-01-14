@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,15 +76,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: CMakeFiles/P02_Mateusz_Dzi
 CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp
 CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: CMakeFiles/P02_Mateusz_Dzialowski.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o"
-	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o -MF CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o.d -o CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o -c /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp
+	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o -MF CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o.d -o CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o -c /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp
 
 CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.i"
-	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp > CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.i
+	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp > CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.i
 
 CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.s"
-	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/arm64-apple-darwin20.0.0-clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp -o CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.s
+	/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp -o CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.s
 
 # Object files for target P02_Mateusz_Dzialowski
 P02_Mateusz_Dzialowski_OBJECTS = \

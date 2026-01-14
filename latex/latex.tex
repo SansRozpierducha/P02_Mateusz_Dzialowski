@@ -1,0 +1,143 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\lstset{
+    language=C++,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    tabsize=4,
+    breaklines=true
+}
+
+\title{Sprawozdanie P02\\
+Wyszukiwanie podciągów 5-elementowych\\
+spełniających zadany warunek}
+\author{Mateusz Działowski}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Wprowadzenie}
+
+Celem projektu było zaprojektowanie i zaimplementowanie algorytmu do wyszukiwania wszystkich podciągów 5-elementowych w zadanym ciągu liczb całkowitych, które spełniają następujący warunek:
+
+\begin{equation}
+a_1 + a_3 > a_0 + a_2 + a_4
+\end{equation}
+
+gdzie $a_0, a_1, a_2, a_3, a_4$ to kolejne elementy podciągu.
+
+\section{Opis algorytmu}
+
+\subsection{Pseudokod}
+
+Algorytm został początkowo opisany w postaci pseudokodu:
+
+\begin{verbatim}
+Funkcja podciag(Tab[], N)
+    jeżeli N < 5 to
+        wypisz "Za krótka tablica"
+        zakończ
+    w przeciwnym razie
+        const M <- 5
+        Temp[M]
+        i <- 0
+        dopóki i < N - 4 wykonuj
+            j <- 0
+            dopóki j < M wykonuj
+                Temp[j] <- Tab[i + j]
+                j <- j + 1
+            jeżeli (Temp[1] + Temp[3] > Temp[0] + Temp[2]+ Temp[4]) to 
+                wypisz Temp[]
+            i <- i + 1
+\end{verbatim}
+
+\subsection{Złożoność obliczeniowa}
+
+\begin{itemize}
+    \item \textbf{Złożoność czasowa}: $O(N \cdot M) = O(5N) = O(N)$, gdzie $N$ to długość ciągu wejściowego, a $M = 5$ to długość podciągu.
+    \item \textbf{Złożoność pamięciowa}: $O(M) = O(1)$, ponieważ używamy tylko tymczasowej tablicy 5-elementowej.
+\end{itemize}
+
+\section{Implementacja}
+
+Program został zaimplementowany w języku C++ z wykorzystaniem:
+\begin{itemize}
+    \item Standardowej biblioteki \texttt{iostream} do operacji wejścia/wyjścia
+    \item Biblioteki \texttt{random} do generowania losowych danych testowych
+    \item Tablice statyczne do przechowywania ciągu wejściowego i tymczasowych wyników
+\end{itemize}
+
+\subsection{Funkcja główna}
+
+Funkcja \texttt{main()} generuje losowy ciąg 20 liczb całkowitych z zakresu [1, 150] i wywołuje funkcję \texttt{podciag()}.
+
+\subsection{Funkcja podciag}
+
+Funkcja \texttt{podciag(int ciag\_a[], int N)} implementuje opisany algorytm:
+\begin{enumerate}
+    \item Sprawdza, czy ciąg jest wystarczająco długi (co najmniej 5 elementów)
+    \item Iteruje przez wszystkie możliwe pozycje startowe podciągu
+    \item Dla każdej pozycji kopiuje 5 kolejnych elementów do tablicy tymczasowej
+    \item Sprawdza warunek $a_1 + a_3 > a_0 + a_2 + a_4$
+    \item Jeśli warunek jest spełniony, wypisuje znaleziony podciąg
+\end{enumerate}
+
+\section{Kompilacja i uruchomienie}
+
+Program został skompilowany przy użyciu systemu budowania CMake. Proces kompilacji:
+
+\begin{verbatim}
+cd build
+cmake ..
+make
+./P02_Mateusz_Dzialowski
+\end{verbatim}
+
+\section{Przykład działania}
+
+Dla przykładowego ciągu wejściowego program znajduje wszystkie podciągi 5-elementowe spełniające zadany warunek i wypisuje je w oddzielnych liniach.
+
+\subsection{Przykładowe wyjście}
+
+Program najpierw wyświetla cały ciąg wejściowy, a następnie wszystkie znalezione podciągi spełniające warunek.
+
+\section{Wnioski}
+
+\begin{enumerate}
+    \item Algorytm działa poprawnie dla ciągów o długości co najmniej 5 elementów
+    \item Złożoność liniowa pozwala na efektywne przetwarzanie nawet długich ciągów
+    \item Implementacja jest czytelna i łatwa w modyfikacji
+    \item Program poprawnie generuje losowe dane testowe i znajduje wszystkie spełniające warunek podciągi
+\end{enumerate}
+
+\section{Możliwe rozszerzenia}
+
+\begin{itemize}
+    \item Dodanie możliwości wczytywania ciągu z pliku
+    \item Implementacja zapisywania wyników do pliku
+    \item Parametryzacja długości podciągu i warunku
+    \item Dodanie testów jednostkowych
+    \item Implementacja wersji z użyciem kontenerów STL (\texttt{std::vector})
+\end{itemize}
+
+\end{document}

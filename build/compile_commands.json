@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/build",
+  "command": "/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/clang++  -I/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/include -g -std=gnu++14 -arch arm64 -o CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o -c /Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp",
+  "file": "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/src/main.cpp",
+  "output": "CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o"
+}
+]

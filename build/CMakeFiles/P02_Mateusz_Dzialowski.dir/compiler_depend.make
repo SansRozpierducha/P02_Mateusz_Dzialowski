@@ -514,49 +514,10 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__mutex/tag_types.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__mutex/unique_lock.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__node_handle \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/accumulate.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/adjacent_difference.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/inner_product.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/iota.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/partial_sum.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ostream/basic_ostream.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/bernoulli_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/binomial_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/cauchy_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/chi_squared_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/clamp_to_integral.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/default_random_engine.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/discard_block_engine.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/discrete_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/exponential_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/extreme_value_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/fisher_f_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/gamma_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/generate_canonical.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/geometric_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/independent_bits_engine.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/is_seed_sequence.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/is_valid.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/knuth_b.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/linear_congruential_engine.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/log2.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/lognormal_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/mersenne_twister_engine.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/negative_binomial_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/normal_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/poisson_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/random_device.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/ranlux.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/seed_seq.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/shuffle_order_engine.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/student_t_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/subtract_with_carry_engine.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_int_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_random_bit_generator.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_real_distribution.h \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/weibull_distribution.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/access.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/concepts.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/container_compatible_range.h \
@@ -774,12 +735,10 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/memory \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/mutex \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/new \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/numeric \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/optional \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ostream \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/print \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/queue \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/random \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ratio \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stack \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stddef.h \
@@ -823,17 +782,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/stdint.h
 
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/stdint.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/stddef.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/stdarg.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/limits.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_rsize_t.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_offsetof.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_nullptr_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_wchar_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_null.h:
 
@@ -843,9 +798,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg_va_copy.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg_va_arg.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg_header_macro.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg___va_copy.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/wctype.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/wchar.h:
 
@@ -853,13 +810,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/vector:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace_copy_if.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/variant:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove_copy.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/string.h:
 
@@ -869,21 +820,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stddef.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binder1st.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/iter_swap.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stack:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/print:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/stdarg.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/locale.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iterator:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_to_n_result.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iosfwd:
 
@@ -891,27 +834,17 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/execution:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/fma.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/deque:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/optional:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cwchar:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/unary_function.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cmath:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/climits:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cctype:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/bitset:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/underlying_type.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/bit:
 
@@ -919,19 +852,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/pair.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/fence.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/no_destroy.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binary_function.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/is_pointer_in_range.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/integer_sequence.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_allocator.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_trivial.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/exchange.h:
 
@@ -941,6 +866,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__undef_macros:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/underlying_type.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_reference.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_pointer.h:
@@ -948,8 +875,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_extent.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/piecewise_construct.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/contention_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_cvref.h:
 
@@ -961,10 +886,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/rank.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/istream_iterator.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_lock_free.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/promote.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/nat.h:
@@ -973,23 +894,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/swap.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/random:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/make_unsigned.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/make_signed.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_valid_expansion.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_union.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_trivially_relocatable.h:
 
@@ -997,25 +908,17 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_swappable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_standard_layout.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_specialization.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_if_not.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_constant_evaluated.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_signed.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_same.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/copy_move_common.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_null_pointer.h:
 
@@ -1025,65 +928,51 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_fundamental.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_function.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_ptrdiff_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/bind.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_function.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_floating_point.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_execution_policy.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/partition.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_string.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_volatile.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_enum.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cwctype:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/optional:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/relation.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cwctype:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_destructible.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/shared_ptr.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_constant_evaluated.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/algorithm:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_const.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/format:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_char_like_type.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_base_of.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/fill_n.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/system_error:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_array.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocator_arg_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_trivial.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_arithmetic.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/popcount.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg___gnuc_va_list.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/string:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/lognormal_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_int_distribution.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/invoke.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/integral_constant.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
 
@@ -1093,8 +982,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/desugars_to.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_random_bit_generator.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/dependent_type.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/decay.h:
@@ -1102,8 +989,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/copy_cvref.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/copy_cv.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/conjunction.h:
 
@@ -1113,29 +998,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/alignment_of.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/lexicographical_compare.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__compare/ordering.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/add_rvalue_reference.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binary_negate.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/add_pointer.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/min.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_callable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/add_cv.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/istreambuf_iterator.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/tuple_types.h:
 
@@ -1149,15 +1020,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/find_index.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_flag.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/support/pthread.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg_va_arg.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/poll_with_backoff.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/math.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ratio:
 
@@ -1169,13 +1036,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__system_error/error_category.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/cxx_atomic_impl.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/extern_template_lists.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/char_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__std_mbstate_t.h:
 
@@ -1183,11 +1046,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/size.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/system_clock.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/exception:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/movable_box.h:
 
@@ -1195,9 +1054,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_final.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__hash_table:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/enable_view.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/enable_borrowed_range.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/datasizeof.h:
 
@@ -1211,99 +1070,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/access.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/derived_from.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/subtract_with_carry_engine.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/formatter_bool.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/enable_borrowed_range.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/all_of.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/min_element.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/student_t_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/shuffle_order_engine.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/ranlux.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/integral_constant.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/random_device.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/poisson_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/movable.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/piecewise_linear_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/piecewise_constant_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/normal_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/linear_congruential_engine.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/reverse.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/knuth_b.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/independent_bits_engine.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/geometric_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/ostream.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/generate_canonical.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_ptrdiff_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/gamma_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/fisher_f_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/negative_binomial_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/extreme_value_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/discrete_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference_wrapper.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_size_t.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/clamp_to_integral.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/cauchy_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/binomial_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/raw_storage_iterator.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/bernoulli_distribution.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/iostream:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/front_insert_iterator.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/none_of.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ostream/basic_ostream.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/partial_sum.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/accumulate.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__node_handle:
 
@@ -1313,29 +1082,17 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/unreachable.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/set_intersection.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/regular.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory_resource/memory_resource.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/unique_ptr.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/uninitialized_algorithms.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/data.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/temp_value.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/swap_allocator.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/chi_squared_distribution.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/to_chars_integral.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/raw_storage_iterator.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/ranges_construct_at.h:
 
@@ -1345,35 +1102,23 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/temporary_buffer.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__config:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/construct_at.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/compressed_pair.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/numeric:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/align.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/convert_to_integral.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/builtin_new_allocator.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/gamma.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/default_random_engine.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocator_arg_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocator.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_assignable.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocate_at_least.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/addressof.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__mbstate_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/trigonometric_functions.h:
 
@@ -1385,25 +1130,21 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/remainder.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__exception/operations.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/min_max.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_class.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/logarithms.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/in_place.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/hyperbolic_functions.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/gamma.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/fma.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/exception_guard.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/error_functions.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/count_if.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/abs.h:
 
@@ -1413,19 +1154,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/move.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/weibull_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/unreachable_sentinel.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocation_guard.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/size.h:
 
@@ -1435,43 +1166,31 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/declval.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/special_functions.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/auto_ptr.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/next.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/arithmetic.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_error.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/move_iterator.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/iterator.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/hypot.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/iter_swap.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ctime:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/hypot.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/move_sentinel.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/iter_move.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/incrementable_traits.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_nullptr_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/forward_like.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/incrementable_traits.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/atomic:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_integral.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_class.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h:
 
@@ -1481,19 +1200,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/distance.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_upper_bound.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_rsize_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/void_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_equality_comparable.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/default_sentinel.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/compare:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/data.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/compare:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/concepts.h:
 
@@ -1503,29 +1218,21 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__hash_table:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/vector.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/subrange.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/string_view.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/unwrap_iter.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cstdio:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/mersenne_twister_engine.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/destruct_n.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/string.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/time_point.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__locale:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/streambuf.h:
 
@@ -1537,11 +1244,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/queue.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/pair.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/ostream.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_referenceable.h:
 
@@ -1549,19 +1254,19 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/istream.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/inner_product.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/fstream.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/deque.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/format:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/pointer_to_binary_function.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/deque.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/log2.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/complex.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/array.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/bit_reference.h:
 
@@ -1571,17 +1276,19 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/pointer_to_unary_function.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binary_negate.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/comp.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/type_list.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binary_function.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/memory:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_equality_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h:
 
@@ -1589,27 +1296,25 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/unicode.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_iterator_concept.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_volatile.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/exponential_distribution.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/formatter_integral.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/formatter_bool.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/formatter.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_to_n_result.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_string.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_sync.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/concepts.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/is_always_lock_free.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/buffer.h:
 
@@ -1619,7 +1324,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__exception/operations.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/type_identity.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/align.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__exception/nested_exception.h:
 
@@ -1629,23 +1338,23 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/negation.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/view_interface.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_int_distribution.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__debug_utils/sanitizers.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__debug_utils/randomize_range.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/bit_cast.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_pod.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__configuration/platform.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/is_always_lock_free.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__config:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/aligned_union.h:
 
@@ -1653,33 +1362,31 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/partition_copy.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_base.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__condition_variable/condition_variable.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/mem_fun_ref.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/swappable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_header_macro.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/semiregular.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/relation.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/predicate.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/invocable.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/bind.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/equality_comparable.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/different_from.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/none_of.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_heap.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/different_from.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ostream:
 
@@ -1689,13 +1396,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/copyable.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ctime:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/constructible.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/mutex:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/countl.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/countr.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/assignable.h:
 
@@ -1703,7 +1410,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__mutex/once_flag.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove_copy_if.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__compare/ordering.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/concepts.h:
 
@@ -1712,6 +1419,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/aliasing_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/___wctype.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/time_point.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_polymorphic.h:
 
@@ -1723,23 +1432,17 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/regular.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/traits.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_core_convertible.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit_reference:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__variant/monostate.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg_header_macro.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_endian.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__exception/exception.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/uses_allocator.h:
 
@@ -1747,13 +1450,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/subrange.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/memory_order.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/kill_dependency.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/function.h:
 
@@ -1761,19 +1460,23 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/check_memory_order.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/contention_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/discard_block_engine.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/auto_ptr.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/check_memory_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/class_or_enum.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_lock_free.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_unsigned_integer.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/convertible_to.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_init.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/aliases.h:
 
@@ -1781,29 +1484,43 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_end.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__assertion_handler:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/cxx_atomic_impl.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__compare/compare_three_way.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__assertion_handler:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/tuple.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__assert:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/unwrap_iter.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/includes.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/stable_sort.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_sorted.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__exception/exception.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/istreambuf_iterator.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/ios.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/sort.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binder2nd.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove_copy.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/sift_down.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/indic_conjunct_break_table.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_if.h:
 
@@ -1817,9 +1534,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/result_of.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_segment_if.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/modulo.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/set_symmetric_difference.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/set_intersection.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/set_difference.h:
 
@@ -1831,6 +1550,12 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/reverse.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace_copy_if.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/min.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/set_union.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove_if.h:
@@ -1839,31 +1564,31 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__configuration/compiler.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_upper_bound.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_fill_n.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/constexpr_c_functions.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__compare/synth_three_way.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/exponential_functions.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/access.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/fill_n.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_copy_n.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_unsigned.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace_if.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/equal_range.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/tuple_indices.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/push_heap.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_endian.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/push_heap.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/rotate.h:
 
@@ -1877,13 +1602,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/lazy.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_iterator_concept.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/mem_fn.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/support.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_wchar_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h:
 
@@ -1897,15 +1624,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/minmax_element.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__configuration/language.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/minmax.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/reverse_iterator.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/count_if.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/merge.h:
 
@@ -1913,19 +1640,21 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_endian.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/partition_copy.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/advance.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/make_projected.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/lower_bound.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/derived_from.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/mismatch.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/lexicographical_compare.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/lower_bound.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/iter_swap.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/make_tuple_types.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_sorted_until.h:
 
@@ -1939,39 +1668,47 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/segmented_iterator.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/invoke.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/to_chars_integral.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_heap_until.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/initializer_list:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/inplace_merge.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/in_out_result.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/special_functions.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/half_positive.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/tuple_like_ext.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/movable.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/generate_n.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__verbose_abort:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_segment_if.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_if_not.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/mismatch.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_unsigned.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/wctype.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/common_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_first_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/add_volatile.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/uniform_real_distribution.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_arg.h:
 
@@ -1983,21 +1720,19 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/fill.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cerrno:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_parse_context.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/readable_traits.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/equal_range.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/copy_move_common.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/copy_backward.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/nth_element.h:
 
@@ -2013,6 +1748,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/forward.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/adjacent_find.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/extent.h:
@@ -2025,11 +1762,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/streambuf:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/for_each.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/identity.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h:
 
@@ -2039,6 +1778,10 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/operations.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_error.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/arithmetic.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/pop_heap.h:
@@ -2047,9 +1790,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_abstract.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/mem_fun_ref.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_nothrow_destructible.h:
 
@@ -2057,23 +1806,21 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/voidify.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_flag.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cstring:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/ranges_iterator_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/unordered_map:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
 
@@ -2081,11 +1828,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/binary_search.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/iota.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__configuration/abi.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/type_traits:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h:
 
@@ -2095,11 +1846,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ctype.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_empty.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/for_each_segment.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/invoke.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/totally_ordered.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/for_each_segment.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/make_heap.h:
 
@@ -2107,19 +1860,29 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove_copy_if.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_locale_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/out_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cstdlib:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cstring:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/unreachable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ios:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_allocator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/forward_like.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/tables.h:
 
@@ -2129,23 +1892,23 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/errno.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/fence.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/unwrap_range.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_signed_integer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
 
@@ -2161,25 +1924,23 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/countr.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/copy_n.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_all_extents.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/math.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg___gnuc_va_list.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_scalar.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/reverse_iterator.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/move.h:
 
@@ -2191,6 +1952,10 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__bit/popcount.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/front_insert_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/tuple:
@@ -2199,7 +1964,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/to_gcc_order.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/stable_partition.h:
 
@@ -2207,29 +1980,41 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/empty.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_trivially_destructible.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/unique_copy.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/add_const.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/copy_if.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocator_destructor.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/istream:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cstdlib:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/is_valid_range.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/search.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/copy_if.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/queue:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/to_chars_base_10.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/binder1st.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h:
 
@@ -2237,11 +2022,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/functional.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/parser_std_format_spec.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/dangling.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/search_n.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__compare/synth_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h:
 
@@ -2251,37 +2034,61 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/destructible.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/errno.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/to_chars_base_10.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/aligned_storage.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cerrno:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__config_site:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/stdint.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__configuration/availability.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_header_macro.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/limits:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocator_traits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/istream_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/steady_clock.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/utility:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_all_extents.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_size_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/streambuf:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/ranges_copy.h:
 
@@ -2293,13 +2100,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__numeric/adjacent_difference.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
 
@@ -2307,11 +2114,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/locale:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/iterator_operations.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/reference_wrapper.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/remove.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/format.h:
 
@@ -2319,7 +2126,11 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/container_compatible_range.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/next_permutation.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/min_element.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__math/copysign.h:
 
@@ -2337,9 +2148,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/unary_function.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_object.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
 
@@ -2349,31 +2164,55 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/any_of.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/type_list.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cstddef:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_cv.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/partial_sort.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/convert_to_timespec.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_pod.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/endian.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/boolean_testable.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stddef_offsetof.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stdint.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/rel_ops.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h:
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/dangling.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/system_clock.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_heap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h:
 
@@ -2385,23 +2224,37 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/convertible_to.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/swap_ranges.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/equal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/private_constructor_tag.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/seed_seq.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/identity.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/shared_ptr.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__compare/compare_three_way.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/iterator_operations.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_void.h:
 
@@ -2413,9 +2266,23 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_compound.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/all_of.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/parser_std_format_spec.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
 
@@ -2427,9 +2294,13 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/enable_if.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/totally_ordered.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_partitioned.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/tuple_like_no_subrange.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
 
@@ -2445,6 +2316,10 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/generate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
@@ -2457,8 +2332,10 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/concepts:
 
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__random/is_seed_sequence.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/make_tuple_types.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__concepts/same_as.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
