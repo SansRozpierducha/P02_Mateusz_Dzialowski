@@ -14,15 +14,14 @@ int podciag(int ciag_a[], int N, int wynik[]) {
             Temp[j] = ciag_a[i + j];
         }
         if(Temp[1] + Temp[3] > Temp[0] + Temp[2]+ Temp[4]) {
-            count++;
             for(int k = 0; k < M; k++) {
-                wynik[i * M + k] = Temp[k];
+                wynik[count * M + k] = Temp[k];
             }
+            count++;
         }
     }
     return count; 
 }
-
 void generuj_dane(int ciag[], int N) {
     std::srand(std::time(NULL));
     for (int i = 0; i < N; i++) {
@@ -36,23 +35,24 @@ void wyswietl_dane(int tablica[], int N) {
     }
     std::cout << std::endl;
 }
-//Do zmainy coś nie działa
-void wyswietl_wynik(int wynik[], int N, int count) {
+void wyswietl_wynik(int wynik[], int count) {
     std::cout << count << "\n";
-    if(count != -1) {
-    int k{0};
-    for (int i = 0; i < count; i++) {
-        std::cout << "[ ";
-        for (int j = 0; j < 5; j++)
-        std::cout << wynik[j+k] << " ";
-        std::cout << "], ";
-        k += 5;
+    if(count > 0) {
+        int k{0};
+        for (int i = 0; i < count; i++) {
+            std::cout << "[ ";
+            for (int j = 0; j < 5; j++) {
+                std::cout << wynik[j+k] << " ";
+            }
+            std::cout << "]";
+            if (i < count - 1) std::cout << ", ";
+            k += 5;
         }
+        std::cout << std::endl;
     }
     else {
-        std::cout << "Brak danych do wyświetlania";
+        std::cout << "Brak danych do wyswietlania." << std::endl;
     }
-    std::cout << std::endl;
 }
 int main () {
     //Utworzenie zmiennych startowych
@@ -68,7 +68,7 @@ int main () {
     int count = podciag(ciag_wejsciowy, N, wynik);
 
     //Wyświetlenie wynikw
-    wyswietl_wynik(ciag_wejsciowy, N, count);
+    wyswietl_wynik(wynik, count);
 
     return 0;
 }
