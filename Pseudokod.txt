@@ -1,23 +1,31 @@
 Funkcja podciag(Tab[], N)
     jezeli N < 5 to
-        wypisz "Za krotka tablica"
-        zakoncz
+        zwróć -1
     w przeciwnym razie
         wynik[]
         const M <- 5
-        Temp[M]
         i <- 0
         dopóki i < N - 4 wykonuj
-            j <- 0
-            dopóki j < M wykonuj
-                Temp[j] <- Tab[i + j]
-                j <- j + 1
+            j <- i
+            dopóki j < N - 4 wykonuj
+                k <- 0
+                dopóki k < M wykonuj
+                    jezeli (Tab[i+1] + Tab[i+3] > Tab[i] + Tab[i+2] + Tab[i+4]) to
+                        m <- 0
+                        dla m < M wykonuj
+                            wynik[].dodaj(Tab[i + m])
+                            m <- m + 1
+                        koniec dopóki
+                        j <- N
+                        k <- M
+                    w przeciwnym razie
+                        k <- k + 1
+                    koniec jezeli
                 koniec dopóki
-            jezeli (Temp[1] + Temp[3] > Temp[0] + Temp[2]+ Temp[4]) to 
-                wynik[].dodaj(Temp[])
-                koniec jezeli
-            i <- i + 1
+                j <- j + 1
             koniec dopóki
+            i <- i + 1
+        koniec dopóki
     zwróć wynik[]
 
 N <- 11

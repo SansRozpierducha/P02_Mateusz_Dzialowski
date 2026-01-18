@@ -1,0 +1,24 @@
+Funkcja podciag2(Tab[], N)
+    jezeli N < 5 to
+        zwróć -1
+    w przeciwnym razie
+        wynik[]
+        const M <- 5
+        Temp[M]
+        i <- 0
+        dopóki i < N - 4 wykonuj
+            j <- 0
+            dopóki j < M wykonuj
+                Temp[j] <- Tab[i + j]
+                j <- j + 1
+                koniec dopóki
+            jezeli (Temp[1] + Temp[3] > Temp[0] + Temp[2]+ Temp[4]) to 
+                wynik[].dodaj(Temp[])
+                koniec jezeli
+            i <- i + 1
+            koniec dopóki
+    zwróć wynik[]
+
+N <- 11
+Tab[N]
+wypisz podciag(Tab, N) 
