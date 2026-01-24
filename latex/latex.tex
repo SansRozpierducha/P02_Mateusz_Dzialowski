@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc} % obsługa UTF-8
 \usepackage[T1]{fontenc} 	% kodowanie fontów
 \usepackage[polish]{babel} 	% pakiet dla języka polskiego
-
+\usepackage[ruled,vlined]{algorithm2e}
 \usepackage{geometry} % ustawienia marginesów	
 \usepackage{graphicx} % wstawianie grafiki
 \usepackage{caption} 	% wstawianie podpisów
@@ -71,6 +71,12 @@
 \section{Wstęp}
 Celem niniejszego opracowania projektu jest przedstawienie implementacji oraz analizy wydajnościowej algorytmu, rozwiązującego problem wyszukiwania specyficznych podciągów w zadanym ciągu liczb całkowitych dodatnich wejściowych. Dokumentacja obejmuje szczegółowy opis problemu, podstawy teoretyczne, implementację algorytmu oraz wyniki testów wydajnościowych przeprowadzonych na różnych zestawach danych wejściowych.
 
+\vspace{0.4cm}
+
+"W przedstawionym opracowaniu indexowanie pozycji w podciagach i tablicach zaczyna się od 0."
+
+\vspace{0.4cm}
+
 \newpage
 \section{Opis problemu}
 
@@ -107,10 +113,14 @@ Teoretyczna analiza złożoności algorytmu przedstawia się następująco:
 \end{itemize}
 
 \section{Szczegóły implementacji}
-\subsection{Analiza problemu}
-Choć algorytm jest stosunkowo prosty, jego implementacja wymaga uwzględnienia kilku kluczowych aspektów, takich jak efektywne zarządzanie pamięcią, optymalne podejście przy wykorzystaniu pętli oraz optymalizacja operacji sprawdzania warunków, co może znacząco wpłynąć na wydajność końcowego rozwiązania. Pod uwage trzeba wziąść również obsługę różnych przypadków brzegowych, takich jak bardzo krótkie ciągi wejściowe lub ciągi nie spełniające żadnego z kryteriów co wciąż wpływa na wydajność implementacji.
 \subsection{Rozwiazanie problemu - podejście pierwsze}
-W podejściu pierwszym, postąpimy w sposób bezpośredni, iterując przez każdy możliwy podciąg o długości M w ciągu A$[N]$ i sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, dodajemy go do listy wyników.
+\subsubsection{Analiza problemu}
+
+Choć algorytm jest stosunkowo prosty, jego implementacja wymaga uwzględnienia kilku kluczowych aspektów, takich jak efektywne zarządzanie pamięcią, optymalne podejście przy wykorzystaniu pętli oraz optymalizacja operacji sprawdzania warunków, co może znacząco wpłynąć na wydajność końcowego rozwiązania. Pod uwage trzeba wziąść również obsługę różnych przypadków brzegowych, takich jak bardzo krótkie ciągi wejściowe lub ciągi nie spełniające żadnego z kryteriów co wciąż wpływa na wydajność implementacji.
+
+\vspace{0.2cm}
+W podejściu pierwszym, postąpimy w sposób bezpośredni, iterując przez każdy możliwy podciąg o długości M w ciągu A$[N]$ i sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, dodajemy go do listy wyników, liście wyników nie przypisujemy żadnej wartości elementowej ponieważ przyjmujemy, że tablica dynamicznie zmienia swoje rozmiary.
+Również musimy wziąść pod uwagę przypadki, gdy długość ciągu N jest mniejsza niż M lub dane wejściowe są ułożone w sposób uniemożliwiający znalezienie podciągu spełniającego warunek. W takim przypadku nie ma możliwości znalezienia żadnego podciągu o wymaganej długości, więc algorytm powinien zwrócić pustą listę wyników.
 
 \vspace{0.4cm}
 1. Dane wejściowe.\\
@@ -119,30 +129,90 @@ W podejściu pierwszym, postąpimy w sposób bezpośredni, iterując przez każd
 	\setlength{\leftskip}{1cm}
 	\item Ciąg liczb całkowitych dodatnich Tab$[]$ również,
 	\item długość ciągu N,
-	\item stała M = 5,
+	\item stała M = 5.
 \end{itemize}
 
 	2. Dane wyjściowe.\\
 \hspace*{1cm} Naszymi danymi wyjściowymi są: 
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item Tablica wyników Wynik$[]$, zawierająca wszystkie podciągi
+	\item Tablica wyników Wynik$[]$, zawierająca wszystkie podciągi.
 \end{itemize}
 
 \vspace{0.4cm}
 
-Implementacja wykorzystuje zagnieżdżone pętle iteracyjne, wraz z zmiennym sterującymi, aby efektywnie przeszukiwać ciąg wejściowy i identyfikować podciągi spełniające określone kryteria. Poniżej przedstawiono szczegółowy opis działania poszczególnych pętli:
+Implementacja wykorzystuje zagnieżdżone pętle iteracyjne (warunki zapętlone), wraz z zmiennym sterującymi, aby efektywnie przeszukiwać ciąg wejściowy i identyfikować podciągi spełniające określone kryteria. Poniżej przedstawiono szczegółowy opis działania poszczególnych pętli:
+
 \begin{itemize}
-    \item {\bfseries Pętla zewnętrzna (\texttt{i})} - przesuwa okno przez cały ciąg (od 0 do N-4), że względu na warunek sprawdzający (1) musimy pętle ograniczyć do N-4, w celu uniknięcia błędów. Przedstawionej pętli sprawdzamy krok po kroku każdy możliwy podciąg o długości M = 5, czy spełnia on warunek z równania (1), również pętla przesuwa okno o jeden element do przodu w każdej iteracji w celu sprawdzenia następnych możliwych podciągów.
-    \item {\bfseries Pętla wewnętrzna (\texttt{j})} - rozpoczyna się od pozycji {\bfseries (i)} i iteruje do N-4, sprawdzając warunek z równania (1) dla każdego podciągu zaczynającego się na pozycji \texttt{i}.
-    \item {\bfseries Pętla iteracyjna (\texttt{k})} - przechodzi przez elementy podciągu (od 0 do M-1)
-    \item {\bfseries Pętla kopiująca (\texttt{m})} - przepisuje spełniający warunek podciąg do tablicy wyników
+    \item {\bfseries Pętla zewnętrzna i < N-4 (\texttt{i})} - przesuwa okno przez cały ciąg (od 0 do N-4), że względu na warunek sprawdzający (1) musimy pętle ograniczyć do N-4, w celu uniknięcia błędów. Przedstawionej pętli sprawdzamy krok po kroku każdy możliwy podciąg o długości M = 5, czy spełnia on warunek z równania (1), również pętla przesuwa okno o jeden element do przodu w każdej iteracji w celu sprawdzenia następnych możliwych podciągów.
+    \item {\bfseries Pętla wewnętrzna j < N-4 (\texttt{j})} - rozpoczyna się od pozycji {\bfseries j = i} i iteruje do N-4, sprawdzając warunek z równania (1) dla każdego podciągu zaczynającego się na pozycji \texttt{i}.
+    \item {\bfseries Pętla iteracyjna k < M (\texttt{k})} - przechodzi przez elementy podciągu (od 0 do M-1), aby obliczyć sumy wymagane do sprawdzenia warunku z równania (1). W tej pętli sumujemy odpowiednie elementy podciągu, aby porównać je zgodnie z kryterium określonym w równaniu (1).
+    \item {\bfseries Pętla kopiująca m < M (\texttt{m})} - przepisuje spełniający warunek podciąg do tablicy wyników Wynik$[]$. Ta pętla iteruje przez elementy podciągu i kopiuje je do tablicy wyników, gdy warunek z równania (1) jest spełniony.
 \end{itemize}
 
 Gdy warunek z równania (1) zostanie spełniony dla danego okna, algorytm kopiuje 5 elementów do tablicy wyników i przerywa wewnętrzne pętle poprzez ustawienie wartości sterujących (\texttt{j = N}, \texttt{k = M}), co wymusza przejście do następnej pozycji okna.
+\newpage
+\subsubsection{Schemat blokowy algorytmu}
+Poniżej przedstawiono schemat blokowy ilustrujący działanie algorytmu:
 
 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../Dane/Diagram_1.png}
+	\caption{Schemat blokowy algorytmu wyszukiwania podciągów}
+	\label{fig:diagram}
+\end{figure}
 
+\newpage
 
+\subsubsection{Algorytm zapisywany w pseudokodzie}
+W poniższym pseudokodzie przedstawiono szczegółową implementację algorytmu. W przypadku pseudokodu, przyjeliśmy wykorzystanie pętli while do iteracji przez elementy ciągu oraz do sprawdzania warunków w porównaniu do schematu blokowego gdzie przyjeśliśmy warunki jako pętle.\\
+W pseudokodzie użyto następujących oznaczeń:
+\begin{itemize}
+	\item \texttt{Tab[]} - tablica wejściowa zawierająca ciąg liczb całkowitych dodatnich,
+	\item \texttt{N} - długość tablicy wejściowej,
+	\item \texttt{wynik[]} - tablica wynikowa przechowująca znalezione podciągi,
+	\item \texttt{M} - stała określająca długość podciągu (M = 5),
+	\item \texttt{i, j, k, m} - zmienne sterujące pętli.
+\end{itemize}
+
+\begin{algorithm}[H]
+\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+\Input{Tab[], N}
+\Output{wynik[] lub $-1$}
+\If{$N < 5$}{\Return $-1$}
+wynik $\gets$ [ ]\;
+\SetKw{KwConst}{const}
+\KwConst $M \gets 5$\;
+i $\gets$ 0\;
+\While{$i < N - 4$}{
+  j $\gets$ i\;
+  \While{$j < N - 4$}{
+    k $\gets$ 0\;
+    \While{$k < M$}{
+      \If{$Tab[i+1] + Tab[i+3] > Tab[i] + Tab[i+2] + Tab[i+4]$}{
+        m $\gets$ 0\;
+        \While{$m < M$}{
+          wynik.\texttt{dodaj}$(Tab[i + m])$\;
+          m $\gets$ m + 1\;
+        }
+        j $\gets$ N\;
+        k $\gets$ M\;
+      }
+      \Else{
+        k $\gets$ k + 1\;
+      }
+    }
+    j $\gets$ j + 1\;
+  }
+  i $\gets$ i + 1\;
+}
+\Return wynik\;
+\end{algorithm}
+
+Jak widać, algorytm iteruje przez każdy możliwy podciąg o długości M w ciągu Tab$[]$, sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, podciąg jest dodawany do tablicy wyników wynik$[]$. W przypadku, gdy długość ciągu N jest mniejsza niż M, algorytm zwraca $-1$, wskazując na brak możliwości znalezienia podciągu spełniającego warunek.
+\newpage
+\section{Sprawozdanie poprawności algorytmu}
+Aby zweryfikować poprawność działania zaimplementowanego algorytmu, przedewszystkim przeprowadzimy test "ołówkowy" 
 \end{document}
