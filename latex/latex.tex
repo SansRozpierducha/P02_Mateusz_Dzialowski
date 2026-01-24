@@ -69,32 +69,79 @@
 \renewcommand{\figurename}{Rys.} 
 \newpage
 \section{Wstęp}
-Celem projektu jest opracowanie, implementacja oraz analiza wydajnościowa algorytmu rozwiązującego problem wyszukiwania specyficznych podciągów w zadanym ciągu liczb całkowitych dodatnich. W ramach pracy porównano dwie wersje implementacyjne tego samego problemu pod kątem ich efektywności czasowej.
+Celem niniejszego opracowania projektu jest przedstawienie implementacji oraz analizy wydajnościowej algorytmu, rozwiązującego problem wyszukiwania specyficznych podciągów w zadanym ciągu liczb całkowitych dodatnich wejściowych. Dokumentacja obejmuje szczegółowy opis problemu, podstawy teoretyczne, implementację algorytmu oraz wyniki testów wydajnościowych przeprowadzonych na różnych zestawach danych wejściowych.
 
 \newpage
 \section{Opis problemu}
 
-Dla zadanego ciagu liczby całkowitych dodatnich ciagu A$[]$ o długości N, należy znaleźć wszystkie podciagi piecioelementowe w danym ciagu, które spełniają kryterium: Suma elementów na pozycji 2 i 4 jest wieksza od sumy elementów na pozycji 1, 3 i 5.
+Dla zadanego ciagu liczby całkowitych dodatnich ciagu A$[]$ o długości N, należy znaleźć wszystkie podciagi o długości M = 5 (pięcioelementowe) w danym ciagu, które spełniają kryterium: Suma elementów na pozycji 2 i 4 jest wieksza od sumy elementów na pozycji 1, 3 i 5.
 
 Dla, podciagu T$[]$ = $[t_0,t_1,t_2,t_3,t_4]$, warunek przyjmuje postać:
 
-\vspace{0.4cm}
+\vspace{0.6cm}
 
 \begin{equation}
     t_1 + t_3 > t_0 + t_2 + t_4
 \end{equation}
 
+\vspace{0.6cm}
+
+{\bfseries Przykład:} Dla ciagu A$[]$ = $[1, 130, 1, 9, 11, 6, 1, 1, 1, 3, 1]$, zgodnie z powyższym kryterium, podciagi spełniające warunek to:
+
+\begin{itemize}
+	\item T$[M]$ = $[1, 130, 1, 9, 11]$, ponieważ (130 + 9 > 1 + 1 + 11)
+	\item T$[M]$ = $[1, 9, 11, 6, 1]$, ponieważ (9 + 6 > 1 + 11 + 1)
+	\item T$[M]$ = $[1, 1, 3, 1, 1]$, ponieważ (1 + 1 > 1 + 3 + 1)
+\end{itemize}
+
+Jak widać, w powyższym przykładzie istnieją trzy podciagi spełniające zadane kryterium.
+
 \section{Podstawy teoretyczne}
 
-Algorytmy opiera sie na technice przesuwania okna o stałej M = 5
+Algorytmy opiera sie na technice przesuwania okna o stałej M = 5. Dla kazdego możliwego podciagu o długości M w ciągu A$[]$, algorytm sprawdza, czy spełnia on warunek określony w równaniu (1). Jeśli tak, podciag jest zapisywany do wyniku.
+\subsection{Złożoność algorytmu}
+Teoretyczna analiza złożoności algorytmu przedstawia się następująco:
 \begin{itemize}
-    \item Złożoność czasowa: Sprawdzenie jednego okna zajmuje czas stały $O(1)$. Ponieważ okno przesuwamy przez cały ciąg o długości $N$, wykonujemy $N-M+1$ operacji. Teoretyczna złożoność powinna wynosić $O(N)$.
-    \item Złożoność obliczeniowa: Algorytm wymaga przechowywania ciągu wejściowego oraz tablicy wyników. W najgorszym przypadku, gdy każdy podciąg spełnia warunek złożoność pamięciowa wynosi $O(N)$.
+    \item {\bfseries Złożoność czasowa:} Sprawdzenie jednego okna zajmuje czas stały $O(1)$. Ponieważ okno przesuwamy przez cały ciąg o długości $N$, wykonujemy $N-M+1$ operacji, M jest stałą co powoduje że teoretyczna złożoność powinna wynosić $O(N)$.
+    \item {\bfseries Złożoność obliczeniowa:} Algorytm wymaga przechowywania ciągu wejściowego o wielkości N oraz tablicy wyników M, która jest stałą. Rówanie wyglada następująco: $O(N+M)$, co teoretyczne w najgorszym przypadku, gdy każdy podciąg spełnia warunek złożoność pamięciowa wynosi $O(N)$.
 \end{itemize}
 
 \section{Szczegóły implementacji}
+\subsection{Analiza problemu}
+Choć algorytm jest stosunkowo prosty, jego implementacja wymaga uwzględnienia kilku kluczowych aspektów, takich jak efektywne zarządzanie pamięcią, optymalne podejście przy wykorzystaniu pętli oraz optymalizacja operacji sprawdzania warunków, co może znacząco wpłynąć na wydajność końcowego rozwiązania. Pod uwage trzeba wziąść również obsługę różnych przypadków brzegowych, takich jak bardzo krótkie ciągi wejściowe lub ciągi nie spełniające żadnego z kryteriów co wciąż wpływa na wydajność implementacji.
 \subsection{Rozwiazanie problemu - podejście pierwsze}
-\subsubsection{Analiza problem}
+W podejściu pierwszym, postąpimy w sposób bezpośredni, iterując przez każdy możliwy podciąg o długości M w ciągu A$[N]$ i sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, dodajemy go do listy wyników.
+
+\vspace{0.4cm}
+1. Dane wejściowe.\\
+\hspace*{1cm} Naszymi danymi wejściowymi są: 
+\begin{itemize}
+	\setlength{\leftskip}{1cm}
+	\item Ciąg liczb całkowitych dodatnich Tab$[]$ również,
+	\item długość ciągu N,
+	\item stała M = 5,
+\end{itemize}
+
+	2. Dane wyjściowe.\\
+\hspace*{1cm} Naszymi danymi wyjściowymi są: 
+\begin{itemize}
+	\setlength{\leftskip}{1cm}
+	\item Tablica wyników Wynik$[]$, zawierająca wszystkie podciągi
+\end{itemize}
+
+\vspace{0.4cm}
+
+Implementacja wykorzystuje zagnieżdżone pętle iteracyjne, wraz z zmiennym sterującymi, aby efektywnie przeszukiwać ciąg wejściowy i identyfikować podciągi spełniające określone kryteria. Poniżej przedstawiono szczegółowy opis działania poszczególnych pętli:
+\begin{itemize}
+    \item {\bfseries Pętla zewnętrzna (\texttt{i})} - przesuwa okno przez cały ciąg (od 0 do N-4), że względu na warunek sprawdzający (1) musimy pętle ograniczyć do N-4, w celu uniknięcia błędów. Przedstawionej pętli sprawdzamy krok po kroku każdy możliwy podciąg o długości M = 5, czy spełnia on warunek z równania (1), również pętla przesuwa okno o jeden element do przodu w każdej iteracji w celu sprawdzenia następnych możliwych podciągów.
+    \item {\bfseries Pętla wewnętrzna (\texttt{j})} - rozpoczyna się od pozycji {\bfseries (i)} i iteruje do N-4, sprawdzając warunek z równania (1) dla każdego podciągu zaczynającego się na pozycji \texttt{i}.
+    \item {\bfseries Pętla iteracyjna (\texttt{k})} - przechodzi przez elementy podciągu (od 0 do M-1)
+    \item {\bfseries Pętla kopiująca (\texttt{m})} - przepisuje spełniający warunek podciąg do tablicy wyników
+\end{itemize}
+
+Gdy warunek z równania (1) zostanie spełniony dla danego okna, algorytm kopiuje 5 elementów do tablicy wyników i przerywa wewnętrzne pętle poprzez ustawienie wartości sterujących (\texttt{j = N}, \texttt{k = M}), co wymusza przejście do następnej pozycji okna.
+
+
 
 
 
