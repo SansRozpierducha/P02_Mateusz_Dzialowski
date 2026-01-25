@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.25)  24 JAN 2026 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.25)  25 JAN 2026 16:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -617,33 +617,79 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@delta=\dimen195
 \TX@cols=\count299
 \TX@ftn=\toks29
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count300
+\lst@gtempboxa=\box66
+\lst@token=\toks30
+\lst@length=\count301
+\lst@currlwidth=\dimen196
+\lst@column=\count302
+\lst@pos=\count303
+\lst@lostspace=\dimen197
+\lst@width=\dimen198
+\lst@newlines=\count304
+\lst@lineno=\count305
+\lst@maxwidth=\dimen199
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count306
+\lst@skipnumbers=\count307
+\lst@framebox=\box67
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box68
 ) (./latex.aux)
 \openout1 = `latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 63.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 100.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 100.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    ... okay on input line 100.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -681,17 +727,17 @@ LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
-\scratchdimen=\dimen196
-\scratchbox=\box67
-\nofMPsegments=\count302
-\nofMParguments=\count303
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count304
-\MPscratchDim=\dimen197
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count309
+\scratchdimen=\dimen256
+\scratchbox=\box69
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen257
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -700,9 +746,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count315
 
-Overfull \hbox (341.43304pt too wide) in paragraph at lines 65--65
+Overfull \hbox (341.43304pt too wide) in paragraph at lines 102--102
  []$
  []
 
@@ -722,38 +770,81 @@ Overfull \hbox (341.43304pt too wide) in paragraph at lines 65--65
 
 [3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 147.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 184.
 
 
 [4]
 <../Dane/Diagram_1.png, id=33, 764.8575pt x 805.0075pt>
 File: ../Dane/Diagram_1.png Graphic file (type png)
 <use ../Dane/Diagram_1.png>
-Package pdftex.def Info: ../Dane/Diagram_1.png  used on input line 162.
+Package pdftex.def Info: ../Dane/Diagram_1.png  used on input line 197.
 (pdftex.def)             Requested size: 460.93153pt x 485.13327pt.
 
 
 [5 <../Dane/Diagram_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
-[6] (./latex.aux)
+ []
+
+
+
+[6]
+Overfull \hbox (1.22612pt too wide) in paragraph at lines 253--255
+\T1/cmr/m/n/10 Aby zwe-ry-fi-ko-wa¢ po-praw-no±¢ dzia-ªa-nia za-im-ple-men-to-wa-nego al-go-rytmu, przedew-szyst-kim prze-pro-wa-dzimy test "oªów-
+ []
+
+<../Dane/Diagram_2.png, id=43, 570.13pt x 1123.19624pt>
+File: ../Dane/Diagram_2.png Graphic file (type png)
+<use ../Dane/Diagram_2.png>
+Package pdftex.def Info: ../Dane/Diagram_2.png  used on input line 306.
+(pdftex.def)             Requested size: 281.68385pt x 554.92984pt.
+
+
+[7]
+
+[8 <../Dane/Diagram_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+
+[9]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 388.
+
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16] (./latex.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8010 strings out of 473190
- 133996 string characters out of 5715799
- 540740 words of memory out of 5000000
- 31187 multiletter control sequences out of 15000+600000
- 568813 words of font info for 52 fonts, out of 8000000 for 9000
+ 10548 strings out of 473190
+ 168087 string characters out of 5715799
+ 1419148 words of memory out of 5000000
+ 33687 multiletter control sequences out of 15000+600000
+ 572482 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,22n,65p,640b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on latex.pdf (7 pages, 276487 bytes).
+ 57i,22n,65p,640b,1728s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfit0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on latex.pdf (17 pages, 533694 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 200 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
