@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 
 \usepackage[utf8]{inputenc} % obsługa UTF-8
 \usepackage[T1]{fontenc} 	% kodowanie fontów
@@ -15,6 +15,11 @@
 \usepackage{listings} % Obsługa bloków kodu
 \usepackage{listingsutf8} % UTF-8 dla \lstinputlisting
 \usepackage{xcolor} % Kolory dla listings
+\usepackage{titlesec} % Dostosowanie nagłówków sekcji
+
+\titleformat{\section}{\normalfont\LARGE\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesubsubsection}{1em}{}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -70,27 +75,32 @@
 	 	 \begin{center}\small
 	 	 Politechnika Rzeszowska\\
 	 	 Wydział Matematyki i Fizyki Stosowanej\\
+	 	 \vspace{0.3cm}
+	 	 Kierunek: Inżynieria i Analiza Danych
 	 	 \end{center}
-	 	 \vspace{3cm}
+	 	 \vspace{2.5cm}
 	 	 \begin{center}
 	 	 	\scalebox{4}{Sprawozdanie}
             \begin{center}\Large
-                Algorytmy i struktury danych
+                Algorytmy i struktury danych\\[0.3cm]
             \end{center}
 	 	 \end{center}
 	 	 \noindent\linia
 	 	 \begin{center}
 	 	 	 \LARGE \textsc{\@title}
-	 	 	 	 	\end{center}
-	 	 	\linia
-	 	 \vspace{0.5cm}
-	 	 \begin{flushright}
-	 	 \begin{minipage}{30cm}
+	 	 \end{center}
+	 	 \linia
+	 	 \vspace{1.5cm}
+	 	 \begin{flushleft}
+	 	 \begin{minipage}{7cm}
 	 	 \textit{\small Autor:}\\
-	 	 \normalsize \textsc{\@author} \par
+	 	 \normalsize \textsc{\@author}\\[0.2cm]
+	 	 \textit{\small Nr indeksu:}\\
+	 	 \normalsize 184213\\[0.5cm]
+	 	 \textit{\small Prowadzący:}\\
+	 	 \normalsize dr inż. prof. PRz Mariusz Borkowski
 	 	 \end{minipage}
-	 	 \vspace{5cm}
-	 	 	\end{flushright}
+	 	 \end{flushleft}
 	 	 \vspace*{\stretch{6}}
 	 	 \begin{center}
 	 	 \@date
@@ -100,7 +110,7 @@
 \makeatother
 \author{Mateusz Działowski}
 \title{Zadanie projektowe/algorytmiczne}
-\date{20 stycznia 2026}
+\date{26 stycznia 2026}
 \begin{document}
 
 \maketitle
@@ -109,66 +119,69 @@
 \tableofcontents
 \renewcommand{\figurename}{Rys.} 
 \newpage
-\section{Wstęp.}
+\section{Wstęp}
 Celem niniejszego opracowania projektu jest przedstawienie implementacji oraz analizy wydajnościowej algorytmu, rozwiązującego problem wyszukiwania specyficznych podciągów w zadanym ciągu liczb całkowitych dodatnich wejściowych. Dokumentacja obejmuje szczegółowy opis problemu, podstawy teoretyczne, implementację algorytmu oraz wyniki testów wydajnościowych przeprowadzonych na różnych zestawach danych wejściowych.
 
 \vspace{0.4cm}
 
-"W przedstawionym opracowaniu indexowanie pozycji w podciagach i tablicach zaczyna się od 0."
+\textit{W przedstawionym opracowaniu indeksowanie pozycji w podciągach i tablicach zaczyna się od 0.}
 
 \vspace{0.4cm}
 
 \newpage
-\section{Opis problemu.}
+\section{Opis problemu}
 
-Dla zadanego ciagu liczby całkowitych dodatnich ciagu A$[]$ o długości N, należy znaleźć wszystkie podciagi o długości M = 5 (pięcioelementowe) w danym ciagu, które spełniają kryterium: Suma elementów na pozycji 2 i 4 jest wieksza od sumy elementów na pozycji 1, 3 i 5.
+Dla zadanego ciągu liczb całkowitych dodatnich A$[]$ o długości N, należy znaleźć wszystkie \textbf{spójne} podciągi o długości M = 5 (pięcioelementowe), które spełniają następujące kryterium: suma elementów na pozycjach nieparzystych (indeksy 1 i 3) jest większa od sumy elementów na pozycjach parzystych (indeksy 0, 2 i 4).
+Przez \textbf{spójny podciąg} rozumiemy ciąg kolejnych, sąsiadujących ze sobą elementów w tablicy wejściowej.
 
-Dla, podciagu T$[]$ = $[t_0,t_1,t_2,t_3,t_4]$, warunek przyjmuje postać:
+\vspace{0.4cm}
 
-\vspace{0.6cm}
+Dla podciągu T$[]$ = $[t_0,t_1,t_2,t_3,t_4]$, warunek przyjmuje postać:
+
+\vspace{0.4cm}
 
 \begin{equation}
     t_1 + t_3 > t_0 + t_2 + t_4
 \end{equation}
 
-\vspace{0.6cm}
+\vspace{0.4cm}
 
-{\bfseries Przykład:} Dla ciagu A$[]$ = $[1, 130, 1, 9, 11, 6, 1, 1, 1, 3, 1]$, zgodnie z powyższym kryterium, podciagi spełniające warunek to:
+{\bfseries Przykład:} Dla ciągu A$[]$ = $[1, 130, 1, 9, 11, 6, 1, 1, 1, 3, 1]$, zgodnie z powyższym kryterium, spójne podciągi spełniające warunek to:
 
 \begin{itemize}
-	\item T$[M]$ = $[1, 130, 1, 9, 11]$, ponieważ (130 + 9 > 1 + 1 + 11)
-	\item T$[M]$ = $[1, 9, 11, 6, 1]$, ponieważ (9 + 6 > 1 + 11 + 1)
-	\item T$[M]$ = $[1, 1, 3, 1, 1]$, ponieważ (1 + 1 > 1 + 3 + 1)
+	\item T$[M]$ = $[1, 130, 1, 9, 11]$, ponieważ $(130 + 9) > (1 + 1 + 11) \Rightarrow 139 > 13$
+	\item T$[M]$ = $[1, 9, 11, 6, 1]$, ponieważ $(9 + 6) > (1 + 11 + 1) \Rightarrow 15 > 13$
+	\item T$[M]$ = $[1, 1, 1, 3, 1]$, ponieważ $(1 + 3) > (1 + 1 + 1) \Rightarrow 4 > 3$
 \end{itemize}
 
-Jak widać, w powyższym przykładzie istnieją trzy podciagi spełniające zadane kryterium.
+Jak widać, w powyższym przykładzie istnieją trzy spójne podciągi spełniające zadane kryterium.
 
-\section{Podstawy teoretyczne.}
+\section{Podstawy teoretyczne}
 
-Algorytmy opiera sie na technice przesuwania okna o stałej M = 5. Dla kazdego możliwego podciagu o długości M w ciągu A$[]$, algorytm sprawdza, czy spełnia on warunek określony w równaniu (1). Jeśli tak, podciag jest zapisywany do wyniku.
-\subsection{Złożoność algorytmu teoretyczna.}
+Algorytm opiera się na technice przesuwania okna o stałej M = 5. Dla każdego możliwego podciągu o długości M w ciągu A$[]$, algorytm sprawdza, czy spełnia on warunek określony w równaniu (1). Jeśli tak, podciąg jest zapisywany do wyniku.
+\subsection{Teoretyczna złożoność algorytmu}
 Teoretyczna analiza złożoności algorytmu przedstawia się następująco:
 \begin{itemize}
-    \item {\bfseries Złożoność czasowa:} Sprawdzenie jednego okna zajmuje czas stały \textbf{$\mathcal{O}(1)$}. Ponieważ okno przesuwamy przez cały ciąg o długości $N$, wykonujemy $N-M+1$ operacji, M jest stałą co powoduje że teoretyczna złożoność powinna wynosić \textbf{$\mathcal{O}(N)$}.
-    \item {\bfseries Złożoność obliczeniowa:} Algorytm wymaga przechowywania ciągu wejściowego o wielkości N oraz tablicy wyników, która jest alokowana dynamicznie, co teoretyczne w najgorszym przypadku, gdy każdy podciąg spełnia warunek złożoność pamięciowa wynosi \textbf{$\mathcal{O}(N)$}.
+    \item {\bfseries Złożoność czasowa:} Sprawdzenie jednego okna zajmuje czas stały \textbf{$\mathcal{O}(1)$}. Ponieważ okno przesuwamy przez cały ciąg o długości $N$, wykonujemy $N-M+1$ operacji. M jest stałą, co powoduje, że teoretyczna złożoność powinna wynosić \textbf{$\mathcal{O}(N)$}.
+    \item {\bfseries Złożoność pamięciowa:} Algorytm wymaga przechowywania ciągu wejściowego o wielkości N oraz tablicy wyników, która jest alokowana dynamicznie. Teoretycznie, w najgorszym przypadku, gdy każdy podciąg spełnia warunek, złożoność pamięciowa wynosi \textbf{$\mathcal{O}(N)$}.
 \end{itemize}
 
-\section{Szczegóły implementacji.}
-\subsection{Rozwiazanie problemu - podejście pierwsze.}
-\subsubsection{Analiza problemu.}
+\section{Szczegóły implementacji}
+\subsection{Rozwiązanie problemu - podejście pierwsze}
+\subsubsection{Analiza problemu}
 
-Choć algorytm jest stosunkowo prosty, jego implementacja wymaga uwzględnienia kilku kluczowych aspektów, takich jak efektywne zarządzanie pamięcią, optymalne podejście przy wykorzystaniu pętli oraz optymalizacja operacji sprawdzania warunków, co może znacząco wpłynąć na wydajność końcowego rozwiązania. Pod uwage trzeba wziąść również obsługę różnych przypadków brzegowych, takich jak bardzo krótkie ciągi wejściowe lub ciągi nie spełniające żadnego z kryteriów co wciąż wpływa na wydajność implementacji.
+Choć algorytm jest stosunkowo prosty, jego implementacja wymaga uwzględnienia kilku kluczowych aspektów, takich jak efektywne zarządzanie pamięcią, optymalne podejście przy wykorzystaniu pętli oraz optymalizacja operacji sprawdzania warunków, co może znacząco wpłynąć na wydajność końcowego rozwiązania. Pod uwagę trzeba wziąć również obsługę różnych przypadków brzegowych, takich jak bardzo krótkie ciągi wejściowe lub ciągi niespełniające żadnego z kryteriów, co wciąż wpływa na wydajność implementacji.
 
 \vspace{0.2cm}
-W podejściu pierwszym, postąpimy w sposób bezpośredni, iterując przez każdy możliwy podciąg o długości M w ciągu A$[N]$ i sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, dodajemy go do listy wyników, liście wyników nie przypisujemy żadnej wartości elementowej ponieważ przyjmujemy, że tablica dynamicznie zmienia swoje rozmiary.
-Również musimy wziąść pod uwagę przypadki, gdy długość ciągu N jest mniejsza niż M lub dane wejściowe są ułożone w sposób uniemożliwiający znalezienie podciągu spełniającego warunek. W takim przypadku nie ma możliwości znalezienia żadnego podciągu o wymaganej długości, więc algorytm powinien zwrócić pustą listę wyników.
+W podejściu pierwszym postąpimy w sposób bezpośredni, iterując przez każdy możliwy podciąg o długości M w ciągu A$[N]$ i sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, dodajemy go do listy wyników. Liście wyników nie przypisujemy żadnej wartości elementowej, ponieważ przyjmujemy, że tablica dynamicznie zmienia swoje rozmiary.
+Również musimy wziąć pod uwagę przypadki, gdy długość ciągu N jest mniejsza niż M lub dane wejściowe są ułożone w sposób uniemożliwiający znalezienie podciągu spełniającego warunek. W takim przypadku nie ma możliwości znalezienia żadnego podciągu o wymaganej długości, więc algorytm powinien zwrócić pustą listę wyników.
 
 \vspace{0.4cm}
 1. Dane wejściowe.\\
 \hspace*{1cm} Naszymi danymi wejściowymi są: 
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item Ciąg liczb całkowitych dodatnich Tab$[]$ również,
+	\item Ciąg liczb całkowitych dodatnich Tab$[]$,
 	\item długość ciągu N,
 	\item stała M = 5.
 \end{itemize}
@@ -182,10 +195,10 @@ Również musimy wziąść pod uwagę przypadki, gdy długość ciągu N jest mn
 
 \vspace{0.4cm}
 
-Implementacja wykorzystuje zagnieżdżone pętle iteracyjne (warunki zapętlone), wraz z zmiennym sterującymi, aby efektywnie przeszukiwać ciąg wejściowy i identyfikować podciągi spełniające określone kryteria. Poniżej przedstawiono szczegółowy opis działania poszczególnych pętli:
+Implementacja wykorzystuje zagnieżdżone pętle iteracyjne (warunki zapętlone) wraz ze zmiennymi sterującymi, aby efektywnie przeszukiwać ciąg wejściowy i identyfikować podciągi spełniające określone kryteria. Poniżej przedstawiono szczegółowy opis działania poszczególnych pętli:
 
 \begin{itemize}
-    \item {\bfseries Pętla zewnętrzna i < N-4 (\texttt{i})} - przesuwa okno przez cały ciąg (od 0 do N-4), że względu na warunek sprawdzający (1) musimy pętli ograniczyć do N-4, w celu uniknięcia błędów. Przedstawionej pętli sprawdzamy krok po kroku każdy możliwy podciąg o długości M = 5, czy spełnia on warunek z równania (1), również pętla przesuwa okno o jeden element do przodu w każdej iteracji w celu sprawdzenia następnych możliwych podciągów.
+    \item {\bfseries Pętla zewnętrzna i < N-4 (\texttt{i})} - przesuwa okno przez cały ciąg (od 0 do N-4). Ze względu na warunek sprawdzający (1) musimy pętlę ograniczyć do N-4, w celu uniknięcia błędów. W przedstawionej pętli sprawdzamy krok po kroku każdy możliwy podciąg o długości M = 5, czy spełnia on warunek z równania (1). Pętla przesuwa okno o jeden element do przodu w każdej iteracji w celu sprawdzenia następnych możliwych podciągów.
     \item {\bfseries Pętla wewnętrzna j < N-4 (\texttt{j})} - rozpoczyna się od pozycji {\bfseries j = i} i iteruje do N-4, sprawdzając warunek z równania (1) dla każdego podciągu zaczynającego się na pozycji \texttt{i}.
     \item {\bfseries Pętla iteracyjna k < M (\texttt{k})} - przechodzi przez elementy podciągu (od 0 do M-1), aby obliczyć sumy wymagane do sprawdzenia warunku z równania (1). W tej pętli sumujemy odpowiednie elementy podciągu, aby porównać je zgodnie z kryterium określonym w równaniu (1).
     \item {\bfseries Pętla kopiująca m < M (\texttt{m})} - przepisuje spełniający warunek podciąg do tablicy wyników Wynik$[]$. Ta pętla iteruje przez elementy podciągu i kopiuje je do tablicy wyników, gdy warunek z równania (1) jest spełniony.
@@ -205,8 +218,8 @@ Poniżej przedstawiono schemat blokowy ilustrujący działanie algorytmu:
 
 \newpage
 
-\subsubsection{Algorytm zapisywany w pseudokodzie.}
-W poniższym pseudokodzie przedstawiono szczegółową implementację algorytmu. W przypadku pseudokodu, przyjeliśmy wykorzystanie pętli while do iteracji przez elementy ciągu oraz do sprawdzania warunków w porównaniu do schematu blokowego gdzie przyjeśliśmy warunki jako pętli.\\
+\subsubsection{Algorytm zapisywany w pseudokodzie}
+W poniższym pseudokodzie przedstawiono szczegółową implementację algorytmu. W przypadku pseudokodu przyjęliśmy wykorzystanie pętli while do iteracji przez elementy ciągu oraz do sprawdzania warunków, w porównaniu do schematu blokowego, gdzie przyjęliśmy warunki jako pętle.\\
 
 W pseudokodzie użyto następujących oznaczeń:
 \begin{itemize}
@@ -253,8 +266,8 @@ i $\gets$ 0\;
 
 Jak widać, algorytm iteruje przez każdy możliwy podciąg o długości M w ciągu Tab$[]$, sprawdzając, czy spełnia on warunek określony w równaniu (1). Jeśli tak, podciąg jest dodawany do tablicy wyników wynik$[]$. W przypadku, gdy długość ciągu N jest mniejsza niż M, algorytm zwraca $-1$, wskazując na brak możliwości znalezienia podciągu spełniającego warunek.
 \newpage
-\subsubsection{Sprawozdanie poprawności algorytmu.}
-Aby zweryfikować poprawność działania zaimplementowanego algorytmu, przedewszystkim przeprowadzimy test "ołówkowy".\\
+\subsubsection{Sprawdzenie poprawności algorytmu}
+Aby zweryfikować poprawność działania zaimplementowanego algorytmu, przede wszystkim przeprowadzimy test "ołówkowy".\\
 Dla przykładowego ciągu wejściowego A$[]$ = $[5, 20, 5, 30, 5, 2, 1, 2, 1]$
 
 \begin{itemize}
@@ -278,14 +291,14 @@ $\dots$ & 1 & $\dots$ & $\dots$ & - & - & $k$ dochodzi do 5, potem $j$ do $N-4$ 
 6 & 2 & 2 & 0 & - & $(30+2) > (5+5+1) \rightarrow 32 > 11$ & Prawda \\
 7 & 2 & 2 & 0 & 0--4 & Kopiowanie Tab[2...6] & Dodano: [5, 30, 5, 2, 1] \\
 8 & 2 & 9 & 5 & - & - & Koniec pętli dla $i=2$ \\
-9 & 3 & 3 & 0 & - & $(5+1) > (30+5+2) \rightarrow 6 > 37$ & Fałsz \\
+9 & 3 & 3 & 0 & - & $(5+1) > (30+2+2) \rightarrow 6 > 34$ & Fałsz \\
 10 & 4 & 4 & 0 & - & $(2+2) > (5+1+1) \rightarrow 4 > 7$ & Fałsz \\
 \hline
 \end{tabular}
 \caption{Przebieg testu ołówkowego dla ciągu $A[]$}
 \end{table}
 
-\subsubsection{Teoretyczne oszacowanie złożoności obliczeniowej.}
+\subsubsection{Teoretyczne oszacowanie złożoności obliczeniowej}
 Analiza złożoności algorytmu przedstawia się następująco:
 
 W algorytmie pętle $i$ oraz $j$ są zależne od $N$, natomiast pętle $k$ i $m$ mają stałą liczbę przebiegów (\texttt{M = 5}), więc wnoszą stały koszt. Liczbę porównań w gałęzi \texttt{if} wyznacza podwójna pętla:
@@ -300,10 +313,10 @@ W algorytmie pętle $i$ oraz $j$ są zależne od $N$, natomiast pętle $k$ i $m$
 \end{equation}
 Pętle $k$ i $m$ są stałej długości, więc nie zmieniają rzędu złożoności. Całkowita złożoność czasowa algorytmu wynosi zatem \textbf{$\mathcal{O}(N^2)$}.
 
-\subsection{Rozwiazanie problemu - podejście drugie.}
-Po przeanalizowaniu pierwszego podejścia, zauważamy, że jego złożoność czasowa wynosi \textbf{$\mathcal{O}(N^2)$}, co może być nieefektywne dla dużych wartości N. W związku z tym, drugie podejście, które optymalizuje algorytm do złożoności \textbf{$\mathcal{O}(N)$} poprzez eliminację zbędnych pętli.
+\subsection{Rozwiązanie problemu - podejście drugie}
+Po przeanalizowaniu pierwszego podejścia zauważamy, że jego złożoność czasowa wynosi \textbf{$\mathcal{O}(N^2)$}, co może być nieefektywne dla dużych wartości N. W związku z tym proponujemy drugie podejście, które optymalizuje algorytm do złożoności \textbf{$\mathcal{O}(N)$} poprzez eliminację zbędnych pętli.
 
-\subsubsection{Schemat blokowy algorytmu.}
+\subsubsection{Schemat blokowy algorytmu}
 
 \begin{figure}[H]
 	\centering
@@ -313,7 +326,7 @@ Po przeanalizowaniu pierwszego podejścia, zauważamy, że jego złożoność cz
 \end{figure}
 
 \newpage
-\subsubsection{Algorytm zapisywany w pseudokodzie.}
+\subsubsection{Algorytm zapisywany w pseudokodzie}
 Poniżej przedstawiono szczegółową implementację zoptymalizowanego algorytmu.\\
 
 W pseudokodzie użyto następujących oznaczeń:
@@ -349,7 +362,7 @@ i $\gets$ 0\;
 \Return wynik\;
 \end{algorithm}
 
-\subsubsection{Sprawdzenie poprawności algorytmu.}
+\subsubsection{Sprawdzenie poprawności algorytmu}
 Aby zweryfikować poprawność działania zaimplementowanego algorytmu, również przeprowadzimy test "ołówkowy".\\
 Dla przykładowego ciągu wejściowego A$[]$ = $[5, 20, 5, 30, 5, 2, 1, 2, 1]$
 \begin{itemize}
@@ -368,21 +381,21 @@ Krok & i & j & Temp[] & Sprawdzany warunek & Wynik / Akcja \\
 3 & 1 & 0--4 & [20, 5, 30, 5, 2] & $(5+5) > (20+30+2) \rightarrow 10 > 52$ & Fałsz \\
 4 & 2 & 0--4 & [5, 30, 5, 2, 1] & $(30+2) > (5+5+1) \rightarrow 32 > 11$ & Prawda \\
 5 & 2 & - & - & - & Dodano: [5, 30, 5, 2, 1] \\
-6 & 3 & 0--4 & [30, 5, 2, 1, 2] & $(5+1) > (30+2+1) \rightarrow 6 > 33$ & Fałsz \\
+6 & 3 & 0--4 & [30, 5, 2, 1, 2] & $(5+1) > (30+2+2) \rightarrow 6 > 34$ & Fałsz \\
 7 & 4 & 0--4 & [5, 2, 1, 2, 1] & $(2+2) > (5+1+1) \rightarrow 4 > 7$ & Fałsz \\
 \hline
 \end{tabular}
 \caption{Przebieg testu ołówkowego dla ciągu $A[]$}
 \end{table}
-\subsubsection{Teoretyczne oszacowanie złożoności obliczeniowej.}
+\subsubsection{Teoretyczne oszacowanie złożoności obliczeniowej}
 Analiza złożoności algorytmu przedstawia się następująco:
-W algorytmie pętla $i$ jest zależna od $N$, natomiast pętla $j$ ma stałą liczbę przebiegów (\texttt{M = 5}), więc wnoszą stały koszt. Liczbę porównań w gałęzi \texttt{if} wyznacza pojedyncza pętla:
+W algorytmie pętla $i$ jest zależna od $N$, natomiast pętla $j$ ma stałą liczbę przebiegów (\texttt{M = 5}), więc wnosi stały koszt. Liczbę porównań w gałęzi \texttt{if} wyznacza pojedyncza pętla:
 \begin{itemize}
 	\item $i$ przebiega od $0$ do $N-5$ \;$\Rightarrow$\; oznacza to około $N$ iteracji,
 \end{itemize}
 Łączna liczba porównań to więc około $N$. Pętla $j$ jest stałej długości, więc nie zmienia rzędu złożoności. Całkowita złożoność czasowa algorytmu wynosi zatem \textbf{$\mathcal{O}(N)$}.
 
-\subsection{Implementacja algorytmów w języku C++ oraz Cmake wraz z Clang++.}
+\subsection{Implementacja algorytmów w języku C++}
 \subsubsection{Implementacja}
 Implementacja obu podejść została przeprowadzona w języku C++. Poniżej przedstawiono kluczowe fragmenty kodu dla obu algorytmów:
 
@@ -445,7 +458,7 @@ Jak widać, oba podejścia implementują funkcje \texttt{podciag} oraz \texttt{p
 
 \newpage
 
-\subsubsection{Testy niewygodnych zestawów danych.}
+\subsubsection{Testy niewygodnych zestawów danych}
 Aby ocenić poprawność zaimplementowanych algorytmów, przeprowadzono testy na różnych zestawach danych wejściowych. Poniżej przedstawiono kod źródłowy testów:
 
 \begin{lstlisting}[language=C++]
@@ -610,7 +623,7 @@ Algorytm 1: [ 5 200 5 200 5 ], [ 5 200 5 10 10 ]
 Algorytm 2: [ 5 200 5 200 5 ], [ 5 200 5 10 10 ]
 \end{verbatim}
 
-\subsubsection{Test wydajnościowy algorytmów.}
+\subsubsection{Test wydajnościowy algorytmów}
 
 \begin{lstlisting}[language=C++]
 
@@ -721,7 +734,6 @@ Wynik test_zestawow(std::vector<int> tab, int N) {
 }
 
 void test_wydajnosci() {
-    //Utworzenie zmiennych startowych
     int N[] = {2500, 5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000};
     int liczba_testow = sizeof(N)/sizeof(N[0]);
     double* czas1 = new double[liczba_testow];
@@ -731,9 +743,7 @@ void test_wydajnosci() {
         std::vector<int> ciag_wejsciowy(N[i]);
         std::vector<int> wynik(N[i]);
 
-        //Generowanie danych
         generuj_dane(ciag_wejsciowy.data(), N[i]);
-        // wyswietl_dane(ciag_wejsciowy.data(), N[i]);
 
         clock_t start1 = clock();
         std::vector<int> wynik1 = podciag(ciag_wejsciowy.data(), N[i]);
@@ -772,7 +782,6 @@ int main () {
 
 \end{lstlisting}
 
-\newpage
 Wyniki testów wydajnościowych przedstawiono w poniższej tabeli:
 \begin{table}[H]
 \centering
@@ -781,16 +790,29 @@ Wyniki testów wydajnościowych przedstawiono w poniższej tabeli:
 \toprule
 L.p. & $n$ & $t_1$ [s] & $t_2$ [s] \\
 \midrule
-1  &  2500  & 0.019769 & 0.000061 \\
-2  &  5000  & 0.076027 & 0.000111 \\
-3  & 10000  & 0.299872 & 0.000221 \\
-4  & 20000  & 1.176934 & 0.000419 \\
-5  & 30000  & 2.614826 & 0.000590 \\
-6  & 40000  & 4.722152 & 0.000810 \\
-7  & 50000  & 7.379533 & 0.001028 \\
-8  & 60000  & 10.462567 & 0.001233 \\
-9  & 70000  & 14.272821 & 0.001409 \\
-10 & 80000  & 18.639339 & 0.001573 \\
+1  &  2500  & 0.017936 & 0.000058 \\
+2  &  5000  & 0.072735 & 0.000110 \\
+3  & 10000  & 0.286721 & 0.000221 \\
+4  & 20000  & 1.140572 & 0.000415 \\
+5  & 30000  & 2.574637 & 0.000622 \\
+6  & 40000  & 4.592503 & 0.000826 \\
+7  & 50000  & 7.236926 & 0.001031 \\
+8  & 60000  & 10.379715 & 0.001175 \\
+9  & 70000  & 14.244029 & 0.001394 \\
+10 & 80000  & 18.563128 & 0.001575 \\
+11 & 90000  & 23.476461 & 0.001755 \\
+12 & 100000 & 28.936148 & 0.002018 \\
+13 & 120000 & 41.625615 & 0.002428 \\
+14 & 140000 & 56.954450 & 0.002748 \\
+15 & 160000 & 74.147522 & 0.003218 \\
+16 & 180000 & 94.896126 & 0.003997 \\
+17 & 200000 & 133.425706 & 0.004472 \\
+18 & 250000 & 197.493877 & 0.004983 \\
+19 & 300000 & 262.953962 & 0.006182 \\
+20 & 350000 & 355.814712 & 0.006918 \\
+21 & 400000 & 465.987660 & 0.008000 \\
+22 & 450000 & 590.600902 & 0.008892 \\
+23 & 500000 & 728.519425 & 0.009960 \\
 \bottomrule
 \end{tabular}
 \caption{Wyniki testów wydajnościowych}
@@ -809,6 +831,10 @@ L.p. & $n$ & $t_1$ [s] & $t_2$ [s] \\
 \caption{Wykres wydajności algorytmu 2 - zależność czasu wykonania od rozmiaru danych}
 \label{fig:wykres2}
 \end{figure}
+
+\section{Podsumowanie}
+W niniejszym sprawozdaniu przedstawiono dwa podejścia do rozwiązania problemu wyszukiwania podciągów w ciągu liczb całkowitych dodatnich, spełniających określony warunek. Pierwsze podejście, choć poprawne, charakteryzuje się złożonością czasową $\mathcal{O}(N^2)$, co może być nieefektywne dla dużych wartości N. Drugie podejście optymalizuje algorytm do złożoności $\mathcal{O}(N)$, eliminując zbędne pętle i poprawiając wydajność.\\ Testy na niewygodnych zestawach danych potwierdziły poprawność działania obu podejść, a testy wydajnościowe wykazały znaczną przewagę drugiego podejścia pod względem czasu wykonania.\\
+Wyniki testów wydajnościowych jednoznacznie wskazują na efektywność drugiego podejścia, co czyni je preferowanym rozwiązaniem dla problemu wyszukiwania podciągów w dużych ciągach danych.
 
 \newpage
 \appendix

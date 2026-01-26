@@ -234,7 +234,6 @@ void test_wydajnosci() {
 }
 
 int main () {
-    test_wydajnosci();
 
     return 0;
 }
