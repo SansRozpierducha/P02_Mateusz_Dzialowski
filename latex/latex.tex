@@ -13,6 +13,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx} % Lepsza obsługa tabel
 \usepackage{listings} % Obsługa bloków kodu
+\usepackage{listingsutf8} % UTF-8 dla \lstinputlisting
 \usepackage{xcolor} % Kolory dla listings
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -47,7 +48,10 @@
     rulecolor=\color{codegray},
     morekeywords={std,vector,int,void,return,if,else,for,while,class,struct},
     emph={push_back,size,data},
-    emphstyle=\color{codepurple}\bfseries
+    emphstyle=\color{codepurple}\bfseries,
+    extendedchars=true,
+    inputencoding=utf8,
+    literate={ą}{{\k{a}}}1 {ć}{{\'c}}1 {ę}{{\k{e}}}1 {ł}{{\l{}}}1 {ń}{{\'n}}1 {ó}{{\'o}}1 {ś}{{\'s}}1 {ż}{{\.z}}1 {ź}{{\'z}}1 {Ą}{{\k{A}}}1 {Ć}{{\'C}}1 {Ę}{{\k{E}}}1 {Ł}{{\L{}}}1 {Ń}{{\'N}}1 {Ó}{{\'O}}1 {Ś}{{\'S}}1 {Ż}{{\.Z}}1 {Ź}{{\'Z}}1
 }
 
 \geometry{	
@@ -71,7 +75,7 @@
 	 	 \begin{center}
 	 	 	\scalebox{4}{Sprawozdanie}
             \begin{center}\Large
-                Alorytmy i struktury danych
+                Algorytmy i struktury danych
             \end{center}
 	 	 \end{center}
 	 	 \noindent\linia
@@ -379,10 +383,8 @@ W algorytmie pętla $i$ jest zależna od $N$, natomiast pętla $j$ ma stałą li
 Łączna liczba porównań to więc około $N$. Pętla $j$ jest stałej długości, więc nie zmienia rzędu złożoności. Całkowita złożoność czasowa algorytmu wynosi zatem \textbf{$\mathcal{O}(N)$}.
 
 \subsection{Implementacja algorytmów w języku C++ oraz Cmake wraz z Clang++.}
-\subsection{Implementacja}
+\subsubsection{Implementacja}
 Implementacja obu podejść została przeprowadzona w języku C++. Poniżej przedstawiono kluczowe fragmenty kodu dla obu algorytmów:
-
-\subsubsection{Kod źródłowy}
 
 \begin{lstlisting}[language=C++]
 std::vector<int> podciag(int ciag[], int N) {
@@ -571,40 +573,42 @@ int main() {
 \newpage
 Wyniki testów:
 
+\begin{verbatim}
 === TEST 1 ===
 Wejście: 
 Ciag wejsciowy: 1 3 2 3 
 
-Algorytm 1: Ciag jest za krotki lub nie ma zadnego spelnionego ciagu\\
+Algorytm 1: Ciag jest za krotki lub nie ma zadnego spelnionego ciagu
 Algorytm 2: Ciag jest za krotki lub nie ma zadnego spelnionego ciagu
 
 === TEST 2 ===
 Wejście: 
 Ciag wejsciowy: 7 7 7 7 7 
 
-Algorytm 1: Ciag jest za krotki lub nie ma zadnego spelnionego ciagu\\
+Algorytm 1: Ciag jest za krotki lub nie ma zadnego spelnionego ciagu
 Algorytm 2: Ciag jest za krotki lub nie ma zadnego spelnionego ciagu
 
 === TEST 3 ===
 Wejście: 
 Ciag wejsciowy: 1 130 1 9 11 6 1 1 1 3 1 
 
-Algorytm 1: [ 1 130 1 9 11 ], [ 1 9 11 6 1 ], [ 1 1 1 3 1 ]\\
+Algorytm 1: [ 1 130 1 9 11 ], [ 1 9 11 6 1 ], [ 1 1 1 3 1 ]
 Algorytm 2: [ 1 130 1 9 11 ], [ 1 9 11 6 1 ], [ 1 1 1 3 1 ]
 
 === TEST 4 ===
 Wejście: 
 Ciag wejsciowy: 1 100 1 100 1 2 2 2 2 
 
-Algorytm 1: [ 1 100 1 100 1 ], [ 1 100 1 2 2 ]\\
+Algorytm 1: [ 1 100 1 100 1 ], [ 1 100 1 2 2 ]
 Algorytm 2: [ 1 100 1 100 1 ], [ 1 100 1 2 2 ]
 
 === TEST 5 ===
 Wejście: 
 Ciag wejsciowy: 5 200 5 200 5 10 10 10 10 
 
-Algorytm 1: [ 5 200 5 200 5 ], [ 5 200 5 10 10 ]\\
+Algorytm 1: [ 5 200 5 200 5 ], [ 5 200 5 10 10 ]
 Algorytm 2: [ 5 200 5 200 5 ], [ 5 200 5 10 10 ]
+\end{verbatim}
 
 \subsubsection{Test wydajnościowy algorytmów.}
 
@@ -791,5 +795,26 @@ L.p. & $n$ & $t_1$ [s] & $t_2$ [s] \\
 \end{tabular}
 \caption{Wyniki testów wydajnościowych}
 \end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{../Dane/wykres.png}
+\caption{Wykres wydajności algorytmu 1 - zależność czasu wykonania od rozmiaru danych}
+\label{fig:wykres1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{../Dane/wykres2.png}
+\caption{Wykres wydajności algorytmu 2 - zależność czasu wykonania od rozmiaru danych}
+\label{fig:wykres2}
+\end{figure}
+
+\newpage
+\appendix
+\section*{Aneks: Kod programu}
+\addcontentsline{toc}{section}{Aneks: Kod programu}
+\subsection*{Główny program (C++)}
+\lstinputlisting[language=C++, inputencoding=utf8, caption={Plik źródłowy: src/main.cpp}]{../src/main.cpp}
 
 \end{document}

@@ -312,6 +312,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__charconv/traits.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/convert_to_timespec.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/duration.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/file_clock.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/high_resolution_clock.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/steady_clock.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/system_clock.h \
@@ -533,6 +534,12 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/view_interface.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__split_buffer \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__std_mbstate_t.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/atomic_unique_lock.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/intrusive_list_view.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/stop_source.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/stop_state.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/stop_token.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/char_traits.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/constexpr_c_functions.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/extern_template_lists.h \
@@ -541,10 +548,14 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__system_error/error_code.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__system_error/error_condition.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__system_error/system_error.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/formatter.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/id.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/jthread.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/poll_with_backoff.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/support.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/support/pthread.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/this_thread.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/thread.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/find_index.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/ignore.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/make_tuple_types.h \
@@ -701,6 +712,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/bitset \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cctype \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cerrno \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/chrono \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/climits \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/clocale \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/cmath \
@@ -722,6 +734,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/execution \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/filesystem \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/format \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/forward_list \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/fstream \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/functional \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/initializer_list \
@@ -743,6 +756,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/print \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/queue \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ratio \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/sstream \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stack \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stddef.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/stdexcept \
@@ -754,6 +768,7 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/string.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/string_view \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/system_error \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/thread \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/tuple \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/type_traits \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/typeinfo \
@@ -838,6 +853,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/functional:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/fstream:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/forward_list:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/filesystem:
 
@@ -926,8 +943,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_same.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference_wrapper.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_null_pointer.h:
 
@@ -1029,11 +1044,15 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__tuple/find_index.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/thread.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/support/pthread.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/lib/clang/19/include/__stdarg_va_arg.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/poll_with_backoff.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/formatter.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/ratio:
 
@@ -1048,6 +1067,12 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/extern_template_lists.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__string/char_traits.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/stop_state.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_reference.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__std_mbstate_t.h:
 
@@ -1074,6 +1099,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/remove_const.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/data.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/stop_token.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__ranges/concepts.h:
 
@@ -1108,6 +1135,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/pointer_traits.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/inout_ptr.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/atomic_unique_lock.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/temporary_buffer.h:
 
@@ -1164,6 +1193,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__utility/move.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__iterator/unreachable_sentinel.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/sstream:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__memory/allocation_guard.h:
 
@@ -1253,6 +1284,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/queue.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/thread:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/pair.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/ostream.h:
@@ -1275,9 +1308,9 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/array.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
-
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__fwd/bit_reference.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/ranges_operations.h:
 
@@ -1318,10 +1351,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/format_string.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_sync.h:
-
-/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/concepts.h:
 
@@ -1431,6 +1460,14 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/time_point.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/atomic_sync.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__format/extended_grapheme_cluster_table.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__chrono/file_clock.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__type_traits/is_bounded_array.h:
@@ -1489,6 +1526,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__atomic/aliases.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/chrono:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__functional/is_transparent.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/find_end.h:
@@ -1502,6 +1541,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__assert:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/unwrap_iter.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/stop_source.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/includes.h:
 
@@ -1921,6 +1962,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/this_thread.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h:
@@ -1930,6 +1973,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h:
+
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__thread/jthread.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h:
 
@@ -2217,6 +2262,8 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
 
+/opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__stop_token/intrusive_list_view.h:
+
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/is_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
@@ -2280,8 +2327,6 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: /Users/sansrozpierducha/Pr
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
 
 /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/include/c++/v1/__algorithm/replace_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
 

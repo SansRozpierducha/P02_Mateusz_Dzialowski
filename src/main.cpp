@@ -64,6 +64,17 @@ std::vector<int> podciag_wersja_2(int ciag[], int N) {
     return wynik; 
 }
 
+void wczytaj_dane(int ciag[], int N) {
+    //wczytuje dane z pliku
+    std::ifstream file("dane.txt");
+    if (file.is_open()) {
+        for (int i = 0; i < N; i++) {
+            file >> ciag[i];
+        }
+        file.close();
+    }
+}
+
 void generuj_dane(int ciag[], int N) {
     //generuje dane poprzez bibliotekę random
     std::srand(std::time(NULL));
@@ -131,6 +142,7 @@ Wynik test_zestawow(std::vector<int> tab, int N) {
     std::vector<int> wynik2 = podciag_wersja_2(tab.data(), N);
     return {wynik, wynik2};
 }
+
 void test_niewygodnych_zestawow() {
     //funkcja związana z niewygodnymi testami
     int tab1[] = {1, 3, 2, 3};
@@ -174,7 +186,7 @@ void test_niewygodnych_zestawow() {
 
 void test_wydajnosci() {
     //Utworzenie zmiennych startowych
-    int N[] = {2500, 5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000};
+    int N[] = {2500, 5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 120000, 140000, 160000, 180000, 200000, 250000, 300000, 350000, 400000, 450000, 500000};
     int liczba_testow = sizeof(N)/sizeof(N[0]);
     double* czas1 = new double[liczba_testow];
     double* czas2 = new double[liczba_testow];

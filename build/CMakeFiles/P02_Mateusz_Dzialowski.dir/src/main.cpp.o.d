@@ -780,4 +780,19 @@ CMakeFiles/P02_Mateusz_Dzialowski.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/iomanip \
   /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/fstream \
-  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/filesystem
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/filesystem \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/chrono \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__chrono/file_clock.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/forward_list \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/thread \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__thread/formatter.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__thread/jthread.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__stop_token/stop_source.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__stop_token/stop_state.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__stop_token/atomic_unique_lock.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__stop_token/intrusive_list_view.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__stop_token/stop_token.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__thread/thread.h \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/sstream \
+  /opt/homebrew/Caskroom/miniconda/base/envs/Algorytmy/bin/../include/c++/v1/__thread/this_thread.h
