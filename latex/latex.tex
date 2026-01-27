@@ -391,7 +391,7 @@ Krok & i & j & Temp[] & Sprawdzany warunek & Wynik / Akcja \\
 Analiza złożoności algorytmu przedstawia się następująco:
 W algorytmie pętla $i$ jest zależna od $N$, natomiast pętla $j$ ma stałą liczbę przebiegów (\texttt{M = 5}), więc wnosi stały koszt. Liczbę porównań w gałęzi \texttt{if} wyznacza pojedyncza pętla:
 \begin{itemize}
-	\item $i$ przebiega od $0$ do $N-5$ \;$\Rightarrow$\; oznacza to około $N$ iteracji,
+	\item $i$ przebiega od $0$ do $N-4$ \;$\Rightarrow$\; oznacza to około $N$ iteracji,
 \end{itemize}
 Łączna liczba porównań to więc około $N$. Pętla $j$ jest stałej długości, więc nie zmienia rzędu złożoności. Całkowita złożoność czasowa algorytmu wynosi zatem \textbf{$\mathcal{O}(N)$}.
 

@@ -1,11 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1769467236.33596 "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/latex/latex.tex" "latex.pdf" "latex" 1769467237.36843 0
+["pdflatex"] 1769509861.92152 "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/latex/latex.tex" "latex.pdf" "latex" 1769509862.96394 0
   "../Dane/Diagram_1.png" 1769258277.70847 77446 52de6a5476a86f3222cc5fc9de7253d3 ""
   "../Dane/Diagram_2.png" 1769258277.71047 65357 a5f37c8614fc46157223d8d5919a5f3d ""
   "../Dane/wykres.png" 1769463385.30912 114698 746c9d6f4d076f07b19cf1aad062d733 ""
   "../Dane/wykres2.png" 1769463633.79375 154483 2a7fbd30acfd5b44a284ecb093ff9a49 ""
   "../src/main.cpp" 1769466222.6553 7651 4bf2e2ececdc31a053c02bf99ee76093 ""
-  "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/latex/latex.tex" 1769467236.12715 31025 135b3d82d66ca429dae0f27c2ad7e4f5 ""
+  "/Users/sansrozpierducha/Programy/P02_Mateusz_Dzialowski/latex/latex.tex" 1769509861.70119 31025 ff38b955c8571def7781ee4d704f4f4d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -128,9 +128,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1764089184 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1764089164 3345743 f0b986c289e399f15b79d88f5598b96a ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "latex.aux" 1769467237.26972 4509 7b00f0985f29ec0e704e07444ae4f163 "pdflatex"
-  "latex.tex" 1769467236.12715 31025 135b3d82d66ca429dae0f27c2ad7e4f5 ""
-  "latex.toc" 1769467237.27048 1831 942513d2740fdd19c7a9e2caf11339e0 "pdflatex"
+  "latex.aux" 1769509862.86221 4509 7b00f0985f29ec0e704e07444ae4f163 "pdflatex"
+  "latex.tex" 1769509861.70119 31025 ff38b955c8571def7781ee4d704f4f4d ""
+  "latex.toc" 1769509862.86306 1831 942513d2740fdd19c7a9e2caf11339e0 "pdflatex"
   (generated)
   "latex.aux"
   "latex.log"
